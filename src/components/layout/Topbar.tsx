@@ -1,11 +1,13 @@
 import { useLocation } from 'react-router-dom';
 import { Bell, CircleHelp, Search } from 'lucide-react';
 import { company } from '../../config/company';
-import { navItems } from '../../config/navigation';
+import { useUser } from '../../auth/session';
+import { navItemsFor } from '../../config/navigation';
 
 export default function Topbar() {
   const { pathname } = useLocation();
-  const current = navItems.find((item) =>
+  const user = useUser();
+  const current = navItemsFor(user.rol).find((item) =>
     item.path === '/' ? pathname === '/' : pathname.startsWith(item.path),
   );
 

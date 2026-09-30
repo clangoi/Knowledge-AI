@@ -6,24 +6,31 @@ import PageHeader from '../components/ui/PageHeader';
 import StatCard from '../components/ui/StatCard';
 import VisualWorkspace from '../components/ui/VisualWorkspace';
 import { company } from '../config/company';
-import { navItems } from '../config/navigation';
-import { activity } from '../data/mock';
+import { useUser } from '../auth/session';
+import { navItemsFor } from '../config/navigation';
+import { activity, agents, files } from '../data/mock';
 
 export default function Dashboard() {
-  const modules = navItems.filter((item) => item.path !== '/' && item.section !== 'Sistema');
+  const user = useUser();
+  const modules = navItemsFor('admin').filter((item) => item.path !== '/' && item.section !== 'Sistema');
 
   return (
     <>
       <PageHeader
-        title={`Hola, ${company.currentUser.name.split(' ')[0]}`}
+        title={`Hola, ${user.nombre.split(' ')[0]}`}
         description={`${company.tagline} de ${company.name}.`}
       />
 
       <div className="grid grid--stats">
-        <StatCard icon={FileText} label="Documentos" value="1,284" hint="+36 esta semana" />
+        <StatCard icon={FileText} label="Documentos" value={files.length.toLocaleString('es')} hint="Corpus de Nexora" />
         <StatCard icon={Database} label="Colecciones RAG" value="4" hint="27,286 fragmentos" />
         <StatCard icon={Brain} label="Modelos ajustados" value="2" hint="1 en entrenamiento" />
-        <StatCard icon={Bot} label="Agentes" value="4" hint="2 activos" />
+        <StatCard
+          icon={Bot}
+          label="Agentes"
+          value={String(agents.length)}
+          hint={`${agents.filter((a) => a.published).length} publicados para usuarios`}
+        />
       </div>
 
       <div className="grid grid--modules">

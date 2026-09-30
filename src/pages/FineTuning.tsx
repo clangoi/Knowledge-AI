@@ -27,7 +27,12 @@ export default function FineTuning() {
 
       <div className="grid grid--stats">
         <StatCard icon={Brain} label="Modelos ajustados" value="2" hint="Último: nexora-legal-v1" />
-        <StatCard icon={FileJson} label="Datasets" value="3" hint="17,420 ejemplos" />
+        <StatCard
+          icon={FileJson}
+          label="Datasets"
+          value={String(datasets.length)}
+          hint={`${datasets.reduce((s, d) => s + d.examples, 0).toLocaleString('es')} ejemplos`}
+        />
         <StatCard icon={Cpu} label="Trabajos activos" value="1" hint="1 en cola" />
         <StatCard icon={Clock} label="Horas GPU (mes)" value="128 h" hint="de 300 h disponibles" />
       </div>

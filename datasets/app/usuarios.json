@@ -1,0 +1,83 @@
+[
+  {
+    "id": "E-0007",
+    "nombre": "Ana Torres",
+    "iniciales": "AT",
+    "puesto": "Gerente de Recursos Humanos",
+    "area": "Recursos Humanos",
+    "sede": "Oficinas centrales",
+    "rol": "admin"
+  },
+  {
+    "id": "E-0049",
+    "nombre": "Leonardo Guerrero Ibarra",
+    "iniciales": "LG",
+    "puesto": "Ejecutivo de ventas",
+    "area": "Comercial",
+    "sede": "Oficinas centrales",
+    "rol": "usuario"
+  },
+  {
+    "id": "E-0025",
+    "nombre": "Lorena Cabrera Sandoval",
+    "iniciales": "LC",
+    "puesto": "Analista financiero",
+    "area": "Finanzas",
+    "sede": "Oficinas centrales",
+    "rol": "usuario"
+  },
+  {
+    "id": "E-0030",
+    "nombre": "Lorena Serrano Escobar",
+    "iniciales": "LS",
+    "puesto": "Comprador",
+    "area": "Finanzas",
+    "sede": "Oficinas centrales",
+    "rol": "usuario"
+  },
+  {
+    "id": "E-0036",
+    "nombre": "Elisa Salazar Rosales",
+    "iniciales": "ES",
+    "puesto": "Abogado corporativo",
+    "area": "Legal",
+    "sede": "Oficinas centrales",
+    "rol": "usuario"
+  },
+  {
+    "id": "E-0040",
+    "nombre": "Alejandra Arias Marín",
+    "iniciales": "AA",
+    "puesto": "Generalista de RR. HH.",
+    "area": "Recursos Humanos",
+    "sede": "Oficinas centrales",
+    "rol": "usuario"
+  },
+  {
+    "id": "E-0074",
+    "nombre": "Julián Mejía Orozco",
+    "iniciales": "JM",
+    "puesto": "Técnico de mantenimiento",
+    "area": "Operaciones",
+    "sede": "Planta Norte",
+    "rol": "usuario"
+  },
+  {
+    "id": "E-0061",
+    "nombre": "Óscar Campos Ochoa",
+    "iniciales": "ÓC",
+    "puesto": "Técnico de servicio postventa",
+    "area": "Comercial",
+    "sede": "Planta Sur",
+    "rol": "usuario"
+  },
+  {
+    "id": "E-0217",
+    "nombre": "Karla Juárez Juárez",
+    "iniciales": "KJ",
+    "puesto": "Supervisor de producción",
+    "area": "Operaciones",
+    "sede": "Planta Sur",
+    "rol": "usuario"
+  }
+]

@@ -4,6 +4,21 @@ export type FileType = 'pdf' | 'docx' | 'xlsx' | 'csv' | 'md' | 'txt' | 'image';
 export type IndexStatus = 'indexado' | 'procesando' | 'pendiente' | 'error';
 export type JobStatus = 'completado' | 'entrenando' | 'en cola' | 'fallido';
 export type AgentStatus = 'activo' | 'inactivo' | 'borrador';
+export type Classification = 'Pública' | 'Interna' | 'Confidencial';
+
+// Roles de la plataforma: el administrador gestiona archivos, colecciones,
+// modelos y agentes; el usuario (funcionario) usa los asistentes publicados.
+export type Role = 'admin' | 'usuario';
+
+export interface User {
+  id: string;
+  nombre: string;
+  iniciales: string;
+  puesto: string;
+  area: string;
+  sede: string;
+  rol: Role;
+}
 
 export interface Folder {
   id: string;
@@ -20,6 +35,7 @@ export interface KnowledgeFile {
   owner: string;
   updatedAt: string;
   status: IndexStatus;
+  classification: Classification;
 }
 
 export interface RagCollection {
@@ -64,6 +80,11 @@ export interface Agent {
   model: string;
   tools: string[];
   status: AgentStatus;
+  /** Visible para los usuarios en «Asistentes». */
+  published: boolean;
+  /** Presentación para los usuarios y preguntas de ejemplo (del set de RAG). */
+  greeting: string;
+  examples: string[];
 }
 
 export interface ActivityItem {

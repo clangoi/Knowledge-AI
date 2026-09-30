@@ -52,6 +52,15 @@ src/
 └── types/index.ts     # Modelos de dominio
 ```
 
+## Usuarios y roles
+
+Al abrir la app se elige una cuenta de demostración (autenticación simulada, sin contraseñas):
+
+- **Administrador** (Ana Torres): gestiona archivos, colecciones RAG, fine-tuning
+  y agentes, y decide qué agentes se publican para los usuarios.
+- **Usuarios** (8 funcionarios ficticios de distintas áreas): usan los asistentes
+  publicados y consultan los documentos públicos e internos.
+
 ## Dataset para el bootcamp
 
 `datasets/` contiene 47 archivos empresariales ficticios de Nexora (PDF, DOCX,

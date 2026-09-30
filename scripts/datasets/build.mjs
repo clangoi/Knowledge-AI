@@ -82,6 +82,7 @@ await rm(path.join(RAIZ, 'corpus'), { recursive: true, force: true });
 await rm(path.join(RAIZ, 'rag'), { recursive: true, force: true });
 await rm(path.join(RAIZ, 'fine-tuning'), { recursive: true, force: true });
 await rm(path.join(RAIZ, 'agentes'), { recursive: true, force: true });
+await rm(path.join(RAIZ, 'app'), { recursive: true, force: true });
 
 const documentos = [
   ...(await leerFuentes()),
@@ -228,6 +229,37 @@ const escenarios = generarEscenarios(tablas).map((e) => {
 await escribir('agentes/escenarios.jsonl', toJsonl(escenarios));
 
 // ---------------------------------------------------------------------------
+// Cuentas demo de la app: un administrador de la plataforma y funcionarios de
+// distintas áreas tomados de la plantilla de personal.
+console.log('Generando cuentas demo…');
+const cuenta = (p, rol) => ({
+  id: p.id,
+  nombre: p.nombre,
+  iniciales: p.nombre.split(' ').slice(0, 2).map((s) => s[0]).join(''),
+  puesto: p.puesto,
+  area: p.area,
+  sede: p.sede,
+  rol,
+});
+const admin = tablas.personal.find((p) => p.nombre === 'Ana Torres');
+const PUESTOS_USUARIO = [
+  ['Ejecutivo de ventas', 'Oficinas centrales'],
+  ['Analista financiero', 'Oficinas centrales'],
+  ['Comprador', 'Oficinas centrales'],
+  ['Abogado corporativo', 'Oficinas centrales'],
+  ['Generalista de RR. HH.', 'Oficinas centrales'],
+  ['Técnico de mantenimiento', 'Planta Norte'],
+  ['Técnico de servicio postventa', 'Planta Sur'],
+  ['Supervisor de producción', 'Planta Sur'],
+];
+const usuarios = PUESTOS_USUARIO.map(([puesto, sede]) => {
+  const p = tablas.personal.find((x) => x.puesto === puesto && x.sede === sede && x.antiguedad_anios >= 1);
+  if (!p) errores.push(`Cuentas demo: no hay "${puesto}" en ${sede}`);
+  return p && cuenta(p, 'usuario');
+}).filter(Boolean);
+await escribir('app/usuarios.json', JSON.stringify([cuenta(admin, 'admin'), ...usuarios], null, 2) + '\n');
+
+// ---------------------------------------------------------------------------
 if (errores.length) {
   console.error(`\n${errores.length} error(es):`);
   for (const e of errores) console.error(`  - ${e}`);
@@ -240,3 +272,4 @@ console.log(`  Corpus: ${manifest.length} archivos (${Object.entries(porFormato)
 console.log(`  RAG: ${preguntasSalida.length} preguntas`);
 for (const [t, r] of Object.entries(resumenFt)) console.log(`  Fine-tuning ${t}: ${r.train} train / ${r.validation} validation`);
 console.log(`  Agentes: ${escenarios.length} escenarios`);
+console.log(`  Cuentas demo: 1 administrador y ${usuarios.length} usuarios`);

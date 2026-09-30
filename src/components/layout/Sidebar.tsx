@@ -1,8 +1,15 @@
 import { NavLink } from 'react-router-dom';
+import { LogOut } from 'lucide-react';
+import { useSession, useUser } from '../../auth/session';
 import { company } from '../../config/company';
-import { navItems, navSections } from '../../config/navigation';
+import { navItemsFor, navSections } from '../../config/navigation';
 
 export default function Sidebar() {
+  const user = useUser();
+  const { signOut } = useSession();
+  const items = navItemsFor(user.rol);
+  const sections = navSections.filter((section) => items.some((item) => item.section === section));
+
   return (
     <aside className="sidebar">
       <div className="sidebar__brand">
@@ -14,10 +21,10 @@ export default function Sidebar() {
       </div>
 
       <nav className="sidebar__nav">
-        {navSections.map((section) => (
+        {sections.map((section) => (
           <div key={section} className="sidebar__section">
             <p className="sidebar__label">{section}</p>
-            {navItems
+            {items
               .filter((item) => item.section === section)
               .map(({ path, label, icon: Icon }) => (
                 <NavLink
@@ -36,11 +43,14 @@ export default function Sidebar() {
       </nav>
 
       <div className="sidebar__footer">
-        <div className="avatar">{company.currentUser.initials}</div>
+        <div className="avatar">{user.iniciales}</div>
         <div className="sidebar__user">
-          <strong>{company.currentUser.name}</strong>
-          <span>{company.currentUser.role}</span>
+          <strong>{user.nombre}</strong>
+          <span>{user.rol === 'admin' ? 'Administrador' : user.puesto}</span>
         </div>
+        <button className="sidebar__logout" title="Cerrar sesión" onClick={signOut}>
+          <LogOut size={16} />
+        </button>
       </div>
     </aside>
   );

@@ -184,7 +184,7 @@ export default function Agents() {
         </Card>
       </div>
 
-      <Card title="Agentes registrados" flush>
+      <Card title="Agentes registrados" subtitle="Los agentes publicados aparecen en «Asistentes» para los usuarios" flush>
         <div className="table-wrap">
           <table className="table">
             <thead>
@@ -194,6 +194,7 @@ export default function Agents() {
                 <th>Modelo</th>
                 <th>Herramientas</th>
                 <th>Estado</th>
+                <th>Publicación</th>
               </tr>
             </thead>
             <tbody>
@@ -213,6 +214,9 @@ export default function Agents() {
                     </div>
                   </td>
                   <td><Badge dot tone={statusTone(agent.status)}>{agent.status}</Badge></td>
+                  <td>
+                    {agent.published ? <Badge tone="primary">Publicado</Badge> : <span className="muted text-sm">No publicado</span>}
+                  </td>
                 </tr>
               ))}
             </tbody>

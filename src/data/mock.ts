@@ -4,6 +4,7 @@ import resumenFineTuning from '../../datasets/fine-tuning/resumen.json';
 import type {
   ActivityItem,
   Agent,
+  Classification,
   Dataset,
   FileType,
   FineTuneJob,
@@ -40,7 +41,13 @@ export const files: KnowledgeFile[] = [...manifest.archivos]
     owner: a.responsable,
     updatedAt: fecha(a.fecha),
     status: 'pendiente',
+    classification: a.clasificacion as Classification,
   }));
+
+// Lo que un usuario puede consultar: documentos (no hojas de datos) que no sean Confidenciales.
+export const consultDocuments = files.filter(
+  (f) => manifest.archivos.find((a) => a.id === f.id)?.tipo === 'documento' && f.classification !== 'Confidencial',
+);
 
 export const collections: RagCollection[] = [
   { id: 'c1', name: 'Políticas internas', documents: 142, chunks: 5_830, embeddingModel: 'text-embedding-large', status: 'indexado' },
@@ -77,11 +84,48 @@ export const jobs: FineTuneJob[] = [
   { id: 'ft-0193', name: 'nexora-soporte-v4', baseModel: 'llm-base-8b', dataset: 'Soporte interno', status: 'en cola', progress: 0, startedAt: '—' },
 ];
 
+// Los ejemplos de cada asistente salen de datasets/rag/preguntas.jsonl.
 export const agents: Agent[] = [
-  { id: 'a1', name: 'Orquestador', role: 'Enruta cada solicitud al agente adecuado', model: 'llm-general', tools: ['router', 'memoria'], status: 'activo' },
-  { id: 'a2', name: 'Agente Legal', role: 'Analiza contratos y cláusulas', model: 'nexora-legal-v1', tools: ['rag:contratos', 'resumen'], status: 'activo' },
-  { id: 'a3', name: 'Agente Finanzas', role: 'Responde sobre presupuestos y gastos', model: 'llm-general', tools: ['rag:finanzas', 'hoja de cálculo'], status: 'borrador' },
-  { id: 'a4', name: 'Agente Soporte', role: 'Atiende dudas internas de empleados', model: 'nexora-soporte-v3', tools: ['rag:políticas', 'tickets'], status: 'inactivo' },
+  {
+    id: 'a1', name: 'Orquestador', role: 'Enruta cada solicitud al agente adecuado', model: 'llm-general',
+    tools: ['router', 'memoria'], status: 'activo', published: false,
+    greeting: '', examples: [],
+  },
+  {
+    id: 'a2', name: 'Agente Legal', role: 'Analiza contratos y cláusulas', model: 'nexora-legal-v1',
+    tools: ['rag:contratos', 'resumen'], status: 'activo', published: true,
+    greeting: 'Te ayudo con contratos, el Código de ética, aprobaciones y protección de datos.',
+    examples: [
+      '¿Cuál es el valor máximo de un regalo que puedo aceptar de un proveedor?',
+      '¿Un contrato de 12,000 USD necesita revisión de Legal?',
+      '¿Cuánto tiempo duran las obligaciones de confidencialidad de un NDA?',
+    ],
+  },
+  {
+    id: 'a3', name: 'Agente Finanzas', role: 'Responde sobre presupuestos y gastos', model: 'llm-general',
+    tools: ['rag:finanzas', 'hoja de cálculo'], status: 'borrador', published: false,
+    greeting: '', examples: [],
+  },
+  {
+    id: 'a4', name: 'Agente Soporte', role: 'Atiende dudas internas de empleados', model: 'nexora-soporte-v3',
+    tools: ['rag:políticas', 'tickets'], status: 'activo', published: true,
+    greeting: 'Resuelvo tus dudas sobre vacaciones, viáticos, beneficios, teletrabajo y trámites de RR. HH.',
+    examples: [
+      '¿En cuántos días hábiles debo reportar mis gastos de viaje?',
+      '¿Cuántos días de vacaciones me tocan si cumplo 3 años en la empresa?',
+      '¿Cuántos días a la semana puedo hacer teletrabajo?',
+    ],
+  },
+  {
+    id: 'a5', name: 'Agente Operaciones', role: 'Consulta procedimientos de planta y seguridad', model: 'llm-general',
+    tools: ['rag:manuales', 'cmms'], status: 'activo', published: true,
+    greeting: 'Consulto manuales de mantenimiento, seguridad industrial, emergencias y fichas técnicas.',
+    examples: [
+      '¿Cuál es la presión neumática correcta en los equipos de la Línea 2?',
+      '¿A partir de qué altura se necesita permiso de trabajo?',
+      '¿Dónde es el punto de reunión de Planta Norte?',
+    ],
+  },
 ];
 
 export const activity: ActivityItem[] = [
