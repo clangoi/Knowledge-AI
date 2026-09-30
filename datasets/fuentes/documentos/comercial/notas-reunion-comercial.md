@@ -1,0 +1,41 @@
+---
+id: com-notas-reunion
+titulo: Notas de la reunión comercial semanal - 24 de septiembre de 2026
+archivo: Notas reunión comercial
+formato: txt
+area: comercial
+codigo: MIN-COM-2026-38
+version: 1.0
+vigencia: 2026-09-24
+responsable: Sofía León
+clasificacion: Interna
+---
+
+REUNIÓN COMERCIAL SEMANAL - 24/09/2026
+Asistentes: Sofía León (Gerente Comercial), ejecutivos de ventas, Ingeniería de aplicaciones, Servicio Postventa.
+
+1. AGUAS DEL VALLE
+- Se envió la propuesta COT-2026-0412 el 18/09 por 203,761.40 USD. El cliente pide 12% en las NX-150 en lugar del 8%.
+- Con 12% en esa partida el descuento total sigue dentro del límite del ejecutivo, pero el margen baja. Sofía decide mantener 8% y ofrecer el contrato de servicio de las NX-400 con 10% de descuento como alternativa.
+- Revisión técnica con el cliente la semana del 5 de octubre.
+
+2. MINERA CERRO ALTO
+- Reclamo de garantía de una NX-250 (serie NX250-24-0187): entregada el 15/07/2025, instalada el 28/10/2025. Reportan fuga por el sello y ruido en rodamientos.
+- Servicio Postventa debe confirmar si está en garantía y si la falla es de sello (desgaste, no cubierto) o de fabricación.
+- El NDA con Minera Cerro Alto vence el 01/12/2026; se necesita renovarlo antes de compartir los planos del proyecto de rebombeo.
+
+3. HIDROTEC DISTRIBUCIONES
+- El contrato de distribución vence el 15/10/2026 con renovación automática. Hidrotec pide subir el descuento base de distribuidor de 15% a 18%. Requiere análisis de margen y, si se acepta, aprobación de Dirección porque cambia la política.
+
+4. PIPELINE
+- Revisar las oportunidades en Negociación con cierre estimado en octubre. Meta: cerrar al menos el 60% del valor ponderado del trimestre.
+- Nuevos prospectos: Ingenio Azucarero El Trapiche y Acuícola Bahía Serena. Ingeniería de aplicaciones preparará la selección de equipos.
+
+5. VARIOS
+- La feria industrial de junio elevó el gasto de Comercial en ese mes; Finanzas pide justificar la variación en el informe trimestral.
+- Recordatorio: los reportes de viaje se entregan en 10 días hábiles con el F-203. Contabilidad rechazó líneas de bebidas alcohólicas en agosto.
+
+ACUERDOS
+- Sofía responde a Aguas del Valle antes del 30/09.
+- Postventa entrega diagnóstico de Minera Cerro Alto antes del 02/10.
+- Legal prepara renovación del NDA con Minera Cerro Alto.

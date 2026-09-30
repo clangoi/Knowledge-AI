@@ -1,0 +1,39 @@
+---
+id: op-bitacora-turno-l2
+titulo: Bitácora de turno - Línea 2 - 22 de septiembre de 2026
+archivo: Bitácora de turno L2 2026-09-22
+formato: txt
+area: operaciones
+codigo: BIT-L2-20260922
+version: 1.0
+vigencia: 2026-09-22
+responsable: Jorge Paz
+clasificacion: Interna
+---
+
+BITÁCORA DE TURNO - LÍNEA 2 (MECANIZADO CNC) - PLANTA NORTE
+Fecha: 22/09/2026
+
+--- TURNO T1 (06:00-14:00) ---
+06:10 Arranque normal de T-201, T-202 y CM-204. Presión neumática 6.1 bar.
+06:15 CM-203 sigue detenido desde el 15/09 esperando rodamientos de husillo 7014. Sin stock en almacén; compras confirma entrega para el 06/10.
+08:40 T-202: alarma de temperatura de husillo (68 °C). Se reduce velocidad al 80%. Se avisa a mantenimiento.
+09:30 Técnico de mantenimiento revisa T-202: vibración 5.2 mm/s, arriba del límite trimestral de 4.5 mm/s pero debajo del límite de paro de 7.1 mm/s. Se programa revisión de rodamientos.
+11:00 Cambio de insertos CNMG 120408 en T-201. Quedan pocos insertos en el almacén; se avisa al supervisor.
+13:50 Producción del turno: 46 carcasas NX-150, 31 impulsores NX-250.
+
+--- TURNO T2 (14:00-22:00) ---
+14:05 Recibo turno. T-202 sigue al 80% de velocidad.
+16:20 Derrame menor de refrigerante (aprox. 8 L) en CM-204 por manguera fisurada. Se contiene con kit antiderrames. Reporte F-701 levantado. Manguera reemplazada 17:05.
+19:30 Filtro de refrigerante de T-201 saturado. Se cambia por el último filtro de 25 µm disponible.
+21:50 Producción del turno: 40 carcasas NX-150, 28 impulsores NX-250.
+
+--- TURNO T3 (22:00-06:00) ---
+22:10 Recibo turno sin novedades adicionales.
+23:40 Horno de inducción H-101 (Línea 1) en falla; el proveedor externo de mantenimiento atiende la orden crítica. No afecta a la Línea 2.
+05:45 Producción del turno: 38 carcasas NX-150, 25 impulsores NX-250.
+
+PENDIENTES PARA EL JEFE DE MANTENIMIENTO:
+- Solicitar compra urgente de filtros de refrigerante 25 µm e insertos CNMG 120408.
+- Programar cambio de rodamientos de T-202 antes de que llegue al límite de paro.
+- Dar seguimiento a la entrega de rodamientos 7014 para CM-203.

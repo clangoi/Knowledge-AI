@@ -1,0 +1,38 @@
+---
+id: com-correo-reclamo-minera
+titulo: Correo - Reclamo de garantía Minera Cerro Alto
+archivo: Correo reclamo de garantía Minera Cerro Alto
+formato: txt
+area: comercial
+codigo: RCL-2026-0093
+version: 1.0
+vigencia: 2026-09-21
+responsable: Sofía León
+clasificacion: Confidencial
+---
+
+De: Superintendencia de Mantenimiento - Minera Cerro Alto
+Para: servicio@nexora-industrial.example
+CC: Ejecutivo de ventas asignado
+Fecha: 21 de septiembre de 2026
+Asunto: Reclamo de garantía - Bomba NX-250, serie NX250-24-0187
+
+Buenos días:
+
+Les reportamos una falla en la bomba NX-250 con número de serie NX250-24-0187, instalada en la estación de rebombeo del tajo 2.
+
+Datos del equipo:
+- Fecha de entrega: 15 de julio de 2025 (pedido de 6 bombas NX-250).
+- Fecha de instalación y puesta en marcha: 28 de octubre de 2025 (reporte de puesta en marcha firmado por su técnico).
+- Horas de operación aproximadas: 6,900.
+
+Descripción de la falla:
+Desde el 18 de septiembre detectamos goteo constante por el sello mecánico y un ruido metálico en el lado del motor. La temperatura del alojamiento de rodamientos llegó a 82 °C. Detuvimos el equipo de forma preventiva. El fluido es agua de proceso con sólidos finos, a 35 °C.
+
+Solicitamos que el equipo sea atendido en garantía a la brevedad, ya que es una de las dos bombas de la estación y estamos operando sin respaldo.
+
+Quedamos atentos al número de reclamo y a la fecha de visita del técnico.
+
+Saludos,
+Superintendencia de Mantenimiento
+Minera Cerro Alto
