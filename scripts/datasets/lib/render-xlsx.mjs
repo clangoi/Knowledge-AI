@@ -41,7 +41,7 @@ export async function renderXlsx({ titulo, autor, fecha, hojas }) {
       hoja.columnas.forEach((c, i) => {
         if (!hoja.totales.includes(c.clave)) return;
         const col = ws.getColumn(i + 1).letter;
-        const total = hoja.filas.reduce((s, f) => s + (Number(f[c.clave]) || 0), 0);
+        const total = Math.round(hoja.filas.reduce((s, f) => s + (Number(f[c.clave]) || 0), 0) * 100) / 100;
         fila.getCell(i + 1).value = { formula: `SUM(${col}2:${col}${ultima})`, result: total };
       });
     }

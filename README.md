@@ -52,6 +52,19 @@ src/
 └── types/index.ts     # Modelos de dominio
 ```
 
+## Dataset para el bootcamp
+
+`datasets/` contiene 47 archivos empresariales ficticios de Nexora (PDF, DOCX,
+XLSX, CSV, TXT y MD), 75 preguntas de evaluación para RAG, tres datasets de
+fine-tuning y 15 escenarios para agentes. La pantalla de Archivos de la app
+muestra este corpus. Detalles en [datasets/README.md](datasets/README.md).
+
+Para regenerarlo después de editar las fuentes:
+
+```bash
+npm run datasets
+```
+
 ## Espacios visuales
 
 `VisualWorkspace` (`src/components/ui/VisualWorkspace.tsx`) es el contenedor

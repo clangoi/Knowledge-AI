@@ -1,6 +1,6 @@
 // Modelos de dominio compartidos por toda la aplicación.
 
-export type FileType = 'pdf' | 'docx' | 'xlsx' | 'image' | 'txt';
+export type FileType = 'pdf' | 'docx' | 'xlsx' | 'csv' | 'md' | 'txt' | 'image';
 export type IndexStatus = 'indexado' | 'procesando' | 'pendiente' | 'error';
 export type JobStatus = 'completado' | 'entrenando' | 'en cola' | 'fallido';
 export type AgentStatus = 'activo' | 'inactivo' | 'borrador';

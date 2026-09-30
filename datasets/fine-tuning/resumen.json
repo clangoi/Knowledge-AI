@@ -1,0 +1,20 @@
+{
+  "soporte-interno": {
+    "formato": "chat",
+    "descripcion": "Preguntas de empleados y respuestas del asistente de soporte interno, basadas en las políticas de RR. HH., viáticos, compras, ética y seguridad.",
+    "train": 199,
+    "validation": 35
+  },
+  "clasificacion-clausulas": {
+    "formato": "instruccion",
+    "descripcion": "Cláusulas contractuales etiquetadas con una de 10 categorías.",
+    "train": 216,
+    "validation": 38
+  },
+  "resumenes-financieros": {
+    "formato": "chat",
+    "descripcion": "Cifras de gasto por centro de costo y estados de resultados con su resumen redactado por un analista.",
+    "train": 168,
+    "validation": 30
+  }
+}

@@ -636,6 +636,26 @@ function generarOrdenes(personal) {
       cumple_sla: 'No',
     });
   }
+  // Pendientes de la Línea 2 que aparecen en la bitácora de turno del 22/09.
+  for (const [creada, equipo, tipo, prioridad, estado] of [
+    ['2026-09-15', 'Centro de mecanizado CM-203', 'Correctivo', 'Alta', 'En espera de refacción'],
+    ['2026-09-22', 'Torno CNC T-202', 'Predictivo', 'Media', 'Abierta'],
+  ]) {
+    agregar({
+      fecha_creacion: creada,
+      sede: 'Planta Norte',
+      linea: 'Línea 2',
+      equipo,
+      tipo,
+      prioridad,
+      ejecutor: tecnicos.PN[0],
+      estado,
+      fecha_cierre: null,
+      horas_resolucion: null,
+      sla_horas: SLA_HORAS[prioridad],
+      cumple_sla: null,
+    });
+  }
   return filas.sort((a, b) => a.fecha_creacion.localeCompare(b.fecha_creacion) || a.orden.localeCompare(b.orden));
 }
 
@@ -770,7 +790,7 @@ export function generarDatos() {
       formato: 'xlsx',
       titulo: 'Estado de resultados 2026 (enero-agosto)',
       responsable: P.finanzas.nombre,
-      fecha: '2026-09-08',
+      fecha: '2026-09-10',
       descripcion: 'Estado de resultados mensual con ingresos reales frente a presupuesto. Septiembre aún no tiene cierre contable.',
       hojas: [{
         nombre: 'Estado de resultados',
@@ -795,7 +815,7 @@ export function generarDatos() {
       formato: 'xlsx',
       titulo: 'Presupuesto de gastos 2026 por centro de costo',
       responsable: P.finanzas.nombre,
-      fecha: '2026-09-08',
+      fecha: '2026-09-10',
       descripcion: 'Presupuesto mensual y gasto real (enero-agosto) por centro de costo, con variaciones.',
       hojas: [
         {

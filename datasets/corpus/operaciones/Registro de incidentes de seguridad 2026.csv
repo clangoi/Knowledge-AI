@@ -1,0 +1,45 @@
+folio,fecha,sede,lugar,tipo,descripcion,dias_perdidos,causa_raiz,accion_correctiva
+INC-26001,2026-01-04,Planta Norte,Almacén,Casi accidente,Caída de pieza desde montacargas sin lesionados,0,Carga mal asegurada,Cerrada
+INC-26002,2026-01-06,Planta Sur,Línea 4,Accidente sin baja,Golpe en rodilla con carro de herramientas,0,Orden y limpieza,Cerrada
+INC-26003,2026-01-11,Planta Norte,Línea 1,Casi accidente,Operador sin protección auditiva en zona > 85 dB,0,Incumplimiento de EPP,Cerrada
+INC-26004,2026-01-12,Planta Sur,Almacén,Casi accidente,Caída de pieza desde montacargas sin lesionados,0,Carga mal asegurada,Cerrada
+INC-26005,2026-01-30,Planta Sur,Línea 4,Accidente sin baja,Golpe en rodilla con carro de herramientas,0,Orden y limpieza,Cerrada
+INC-26006,2026-02-01,Planta Norte,Línea 1,Casi accidente,Operador sin protección auditiva en zona > 85 dB,0,Incumplimiento de EPP,Cerrada
+INC-26007,2026-02-07,Planta Sur,Línea 5,Condición insegura,Cable eléctrico expuesto en banco de pruebas,0,Mantenimiento deficiente,Cerrada
+INC-26008,2026-02-11,Planta Norte,Línea 1,Casi accidente,Operador sin protección auditiva en zona > 85 dB,0,Incumplimiento de EPP,Cerrada
+INC-26009,2026-02-22,Planta Norte,Línea 2,Incidente ambiental,Derrame menor de refrigerante (menos de 20 L),0,Falla de manguera,Cerrada
+INC-26010,2026-02-25,Planta Sur,Línea 4,Accidente sin baja,Golpe en rodilla con carro de herramientas,0,Orden y limpieza,Cerrada
+INC-26011,2026-03-07,Planta Sur,Almacén,Casi accidente,Caída de pieza desde montacargas sin lesionados,0,Carga mal asegurada,Cerrada
+INC-26012,2026-04-15,Planta Norte,Línea 3,Casi accidente,Energía residual al intervenir equipo sin bloqueo completo,0,Bloqueo y etiquetado incompleto,Cerrada
+INC-26013,2026-04-17,Planta Norte,Línea 2,Incidente ambiental,Derrame menor de refrigerante (menos de 20 L),0,Falla de manguera,Cerrada
+INC-26014,2026-04-18,Planta Sur,Línea 4,Accidente sin baja,Golpe en rodilla con carro de herramientas,0,Orden y limpieza,Cerrada
+INC-26015,2026-05-01,Planta Norte,Línea 2,Accidente con baja,Esguince de tobillo por piso con aceite,3,Orden y limpieza,Cerrada
+INC-26016,2026-05-10,Planta Norte,Línea 1,Casi accidente,Operador sin protección auditiva en zona > 85 dB,0,Incumplimiento de EPP,Cerrada
+INC-26017,2026-05-10,Planta Norte,Línea 2,Condición insegura,Guarda de protección retirada en torno,0,Falta de supervisión,Cerrada
+INC-26018,2026-05-13,Planta Norte,Línea 2,Accidente sin baja,Corte superficial en mano al retirar viruta,0,Incumplimiento de EPP,Cerrada
+INC-26019,2026-05-23,Planta Sur,Línea 5,Condición insegura,Cable eléctrico expuesto en banco de pruebas,0,Mantenimiento deficiente,Cerrada
+INC-26020,2026-05-23,Planta Norte,Línea 1,Casi accidente,Operador sin protección auditiva en zona > 85 dB,0,Incumplimiento de EPP,Cerrada
+INC-26021,2026-05-23,Planta Norte,Línea 1,Accidente con baja,Quemadura en antebrazo durante vaciado de colada,5,Procedimiento no seguido,Cerrada
+INC-26022,2026-05-31,Planta Norte,Línea 2,Accidente sin baja,Corte superficial en mano al retirar viruta,0,Incumplimiento de EPP,Cerrada
+INC-26023,2026-06-01,Planta Norte,Línea 2,Accidente con baja,Esguince de tobillo por piso con aceite,15,Orden y limpieza,Cerrada
+INC-26024,2026-06-26,Planta Norte,Línea 1,Casi accidente,Operador sin protección auditiva en zona > 85 dB,0,Incumplimiento de EPP,Cerrada
+INC-26025,2026-07-01,Planta Norte,Línea 1,Accidente con baja,Quemadura en antebrazo durante vaciado de colada,4,Procedimiento no seguido,Cerrada
+INC-26026,2026-07-08,Planta Norte,Línea 2,Accidente con baja,Esguince de tobillo por piso con aceite,12,Orden y limpieza,Cerrada
+INC-26027,2026-07-11,Planta Norte,Línea 2,Accidente con baja,Esguince de tobillo por piso con aceite,5,Orden y limpieza,Cerrada
+INC-26028,2026-07-12,Planta Sur,Línea 4,Accidente sin baja,Golpe en rodilla con carro de herramientas,0,Orden y limpieza,Cerrada
+INC-26029,2026-07-23,Planta Sur,Almacén,Casi accidente,Caída de pieza desde montacargas sin lesionados,0,Carga mal asegurada,Cerrada
+INC-26030,2026-07-23,Planta Sur,Línea 4,Accidente sin baja,Golpe en rodilla con carro de herramientas,0,Orden y limpieza,Cerrada
+INC-26031,2026-07-24,Planta Norte,Línea 1,Accidente con baja,Quemadura en antebrazo durante vaciado de colada,11,Procedimiento no seguido,Cerrada
+INC-26032,2026-07-25,Planta Norte,Línea 3,Casi accidente,Energía residual al intervenir equipo sin bloqueo completo,0,Bloqueo y etiquetado incompleto,Cerrada
+INC-26033,2026-08-03,Planta Norte,Línea 1,Accidente con baja,Quemadura en antebrazo durante vaciado de colada,2,Procedimiento no seguido,Cerrada
+INC-26034,2026-08-04,Planta Norte,Línea 2,Condición insegura,Guarda de protección retirada en torno,0,Falta de supervisión,Cerrada
+INC-26035,2026-08-09,Planta Norte,Línea 2,Condición insegura,Guarda de protección retirada en torno,0,Falta de supervisión,Cerrada
+INC-26036,2026-08-10,Planta Sur,Almacén,Casi accidente,Caída de pieza desde montacargas sin lesionados,0,Carga mal asegurada,Cerrada
+INC-26037,2026-08-12,Planta Norte,Línea 1,Casi accidente,Operador sin protección auditiva en zona > 85 dB,0,Incumplimiento de EPP,Cerrada
+INC-26038,2026-08-17,Planta Norte,Línea 2,Accidente sin baja,Corte superficial en mano al retirar viruta,0,Incumplimiento de EPP,Cerrada
+INC-26039,2026-09-10,Planta Norte,Almacén,Casi accidente,Caída de pieza desde montacargas sin lesionados,0,Carga mal asegurada,Abierta
+INC-26040,2026-09-11,Planta Sur,Línea 5,Condición insegura,Extintor con presión baja,0,Mantenimiento de equipos de emergencia,En seguimiento
+INC-26041,2026-09-15,Planta Norte,Línea 2,Condición insegura,Guarda de protección retirada en torno,0,Falta de supervisión,Abierta
+INC-26042,2026-09-17,Planta Norte,Línea 2,Incidente ambiental,Derrame menor de refrigerante (menos de 20 L),0,Falla de manguera,En seguimiento
+INC-26043,2026-09-22,Planta Norte,Línea 3,Casi accidente,Energía residual al intervenir equipo sin bloqueo completo,0,Bloqueo y etiquetado incompleto,Cerrada
+INC-26044,2026-09-25,Planta Norte,Línea 2,Incidente ambiental,Derrame menor de refrigerante (menos de 20 L),0,Falla de manguera,Abierta

@@ -25,8 +25,10 @@ const fileIcons: Record<FileType, LucideIcon> = {
   pdf: FileText,
   docx: FileText,
   xlsx: FileSpreadsheet,
-  image: FileImage,
+  csv: FileSpreadsheet,
+  md: FileText,
   txt: File,
+  image: FileImage,
 };
 
 export default function Files() {
@@ -49,7 +51,7 @@ export default function Files() {
             <li className="list__item list__item--active">
               <Folder size={16} />
               <span>Todos los archivos</span>
-              <span className="list__count">1,284</span>
+              <span className="list__count">{files.length}</span>
             </li>
             {folders.map((folder) => (
               <li key={folder.id} className="list__item">

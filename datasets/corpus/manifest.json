@@ -1,0 +1,2018 @@
+{
+  "empresa": "Nexora Industrial S.A.",
+  "fecha_corte": "2026-09-30",
+  "total": 47,
+  "archivos": [
+    {
+      "id": "com-catalogo-productos",
+      "titulo": "Catálogo de productos 2026",
+      "archivo": "Catálogo de productos 2026.pdf",
+      "ruta": "corpus/comercial/Catálogo de productos 2026.pdf",
+      "area": "comercial",
+      "area_nombre": "Comercial",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "CAT-COM-2026",
+      "version": "1.0",
+      "fecha": "2026-01-05",
+      "responsable": "Sofía León",
+      "clasificacion": "Pública",
+      "descripcion": "Nexora Industrial S.A. diseña y fabrica bombas centrífugas y válvulas industriales desde 1998. Fundimos, mecanizamos, ensamblamos y probamos cada equipo en nuestras plantas, y respaldamos a nuestros clientes con servicio postventa y refacci",
+      "bytes": 5369,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Quiénes somos",
+          "pagina": 1
+        },
+        {
+          "seccion": "Bombas centrífugas serie NX",
+          "pagina": 1
+        },
+        {
+          "seccion": "Válvulas serie VX",
+          "pagina": 1
+        },
+        {
+          "seccion": "Refacciones originales",
+          "pagina": 1
+        },
+        {
+          "seccion": "Servicios",
+          "pagina": 1
+        },
+        {
+          "seccion": "Cómo comprar",
+          "pagina": 2
+        },
+        {
+          "seccion": "Distribuidores autorizados",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "com-correo-reclamo-minera",
+      "titulo": "Correo - Reclamo de garantía Minera Cerro Alto",
+      "archivo": "Correo reclamo de garantía Minera Cerro Alto.txt",
+      "ruta": "corpus/comercial/Correo reclamo de garantía Minera Cerro Alto.txt",
+      "area": "comercial",
+      "area_nombre": "Comercial",
+      "formato": "txt",
+      "tipo": "documento",
+      "codigo": "RCL-2026-0093",
+      "version": "1.0",
+      "fecha": "2026-09-21",
+      "responsable": "Sofía León",
+      "clasificacion": "Confidencial",
+      "descripcion": "De: Superintendencia de Mantenimiento - Minera Cerro Alto Para: servicio@nexora-industrial.example CC: Ejecutivo de ventas asignado Fecha: 21 de septiembre de 2026 Asunto: Reclamo de garantía - Bomba NX-250, serie NX250-24-0187",
+      "bytes": 1223
+    },
+    {
+      "id": "com-guia-objeciones",
+      "titulo": "Guía de respuesta a objeciones de clientes",
+      "archivo": "Guía de respuesta a objeciones.md",
+      "ruta": "corpus/comercial/Guía de respuesta a objeciones.md",
+      "area": "comercial",
+      "area_nombre": "Comercial",
+      "formato": "md",
+      "tipo": "documento",
+      "codigo": "GUI-COM-004",
+      "version": "1.1",
+      "fecha": "2026-03-10",
+      "responsable": "Sofía León",
+      "clasificacion": "Interna",
+      "descripcion": "Estas respuestas son un punto de partida. Adáptalas al cliente y nunca prometas condiciones fuera de la Política comercial y de descuentos sin la aprobación correspondiente.",
+      "bytes": 2171
+    },
+    {
+      "id": "com-lista-precios-2026",
+      "titulo": "Lista de precios 2026",
+      "archivo": "Lista de precios 2026.xlsx",
+      "ruta": "corpus/comercial/Lista de precios 2026.xlsx",
+      "area": "comercial",
+      "area_nombre": "Comercial",
+      "formato": "xlsx",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-01-05",
+      "responsable": "Sofía León",
+      "clasificacion": "Confidencial",
+      "descripcion": "Precios de lista en USD (sin impuestos) y tabla de descuentos por volumen.",
+      "bytes": 8228,
+      "hojas": [
+        {
+          "nombre": "Precios",
+          "filas": 9,
+          "columnas": [
+            "SKU",
+            "Producto",
+            "Familia",
+            "Potencia (HP)",
+            "Caudal nominal (m³/h)",
+            "Precio de lista (USD)"
+          ]
+        },
+        {
+          "nombre": "Descuentos por volumen",
+          "filas": 5,
+          "columnas": [
+            "Unidades por pedido",
+            "Descuento"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com-notas-reunion",
+      "titulo": "Notas de la reunión comercial semanal - 24 de septiembre de 2026",
+      "archivo": "Notas reunión comercial.txt",
+      "ruta": "corpus/comercial/Notas reunión comercial.txt",
+      "area": "comercial",
+      "area_nombre": "Comercial",
+      "formato": "txt",
+      "tipo": "documento",
+      "codigo": "MIN-COM-2026-38",
+      "version": "1.0",
+      "fecha": "2026-09-24",
+      "responsable": "Sofía León",
+      "clasificacion": "Interna",
+      "descripcion": "REUNIÓN COMERCIAL SEMANAL - 24/09/2026 Asistentes: Sofía León (Gerente Comercial), ejecutivos de ventas, Ingeniería de aplicaciones, Servicio Postventa.",
+      "bytes": 2081
+    },
+    {
+      "id": "com-pipeline-oportunidades",
+      "titulo": "Pipeline de oportunidades",
+      "archivo": "Pipeline de oportunidades.csv",
+      "ruta": "corpus/comercial/Pipeline de oportunidades.csv",
+      "area": "comercial",
+      "area_nombre": "Comercial",
+      "formato": "csv",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-30",
+      "responsable": "Sofía León",
+      "clasificacion": "Confidencial",
+      "descripcion": "Oportunidades comerciales abiertas y cerradas con etapa y probabilidad de cierre.",
+      "bytes": 5116,
+      "hojas": [
+        {
+          "nombre": "Pipeline de oportunidades",
+          "filas": 48,
+          "columnas": [
+            "oportunidad",
+            "cliente",
+            "es_prospecto",
+            "producto_principal",
+            "unidades",
+            "valor_estimado_usd",
+            "etapa",
+            "probabilidad",
+            "fecha_cierre_estimada",
+            "ejecutivo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com-politica-comercial",
+      "titulo": "Política comercial y de descuentos",
+      "archivo": "Política comercial y de descuentos.pdf",
+      "ruta": "corpus/comercial/Política comercial y de descuentos.pdf",
+      "area": "comercial",
+      "area_nombre": "Comercial",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "POL-COM-001",
+      "version": "3.0",
+      "fecha": "2026-01-05",
+      "responsable": "Sofía León",
+      "clasificacion": "Confidencial",
+      "descripcion": "Establecer las reglas para cotizar, otorgar descuentos, definir condiciones de pago y aprobar excepciones en las ventas de Nexora Industrial S.A., cuidando el margen y el trato equitativo a los clientes.",
+      "bytes": 5466,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Objetivo",
+          "pagina": 1
+        },
+        {
+          "seccion": "Precios",
+          "pagina": 1
+        },
+        {
+          "seccion": "Descuentos por volumen",
+          "pagina": 1
+        },
+        {
+          "seccion": "Distribuidores autorizados",
+          "pagina": 1
+        },
+        {
+          "seccion": "Descuentos adicionales y aprobaciones",
+          "pagina": 1
+        },
+        {
+          "seccion": "Condiciones de pago",
+          "pagina": 2
+        },
+        {
+          "seccion": "Cotizaciones",
+          "pagina": 2
+        },
+        {
+          "seccion": "Licitaciones públicas",
+          "pagina": 2
+        },
+        {
+          "seccion": "Comisiones",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "com-garantias",
+      "titulo": "Política de garantías y devoluciones",
+      "archivo": "Política de garantías y devoluciones.pdf",
+      "ruta": "corpus/comercial/Política de garantías y devoluciones.pdf",
+      "area": "comercial",
+      "area_nombre": "Comercial",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "POL-COM-002",
+      "version": "2.2",
+      "fecha": "2025-11-15",
+      "responsable": "Sofía León",
+      "clasificacion": "Pública",
+      "descripcion": "Nexora Industrial S.A. garantiza sus productos contra defectos de materiales y de fabricación durante los siguientes plazos:",
+      "bytes": 5088,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Cobertura de la garantía",
+          "pagina": 1
+        },
+        {
+          "seccion": "Exclusiones",
+          "pagina": 1
+        },
+        {
+          "seccion": "Cómo hacer válida la garantía",
+          "pagina": 1
+        },
+        {
+          "seccion": "Devoluciones",
+          "pagina": 2
+        },
+        {
+          "seccion": "Responsabilidad",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "com-propuesta-aguas-valle",
+      "titulo": "Propuesta comercial - Aguas del Valle S.A. - Renovación de suministro 2027",
+      "archivo": "Propuesta comercial Aguas del Valle 2027.docx",
+      "ruta": "corpus/comercial/Propuesta comercial Aguas del Valle 2027.docx",
+      "area": "comercial",
+      "area_nombre": "Comercial",
+      "formato": "docx",
+      "tipo": "documento",
+      "codigo": "COT-2026-0412",
+      "version": "1.0",
+      "fecha": "2026-09-18",
+      "responsable": "Sofía León",
+      "clasificacion": "Confidencial",
+      "descripcion": "Aguas del Valle S.A. es cliente de Nexora desde 2019 y opera la red de agua potable y las plantas de rebombeo de la región del Valle Central. El contrato de suministro anual vigente (CT-2026-008) vence el 14 de enero de 2027. Esta propuesta",
+      "bytes": 13177,
+      "secciones": [
+        {
+          "seccion": "Antecedentes"
+        },
+        {
+          "seccion": "Necesidad del cliente"
+        },
+        {
+          "seccion": "Solución propuesta"
+        },
+        {
+          "seccion": "Servicio adicional opcional"
+        },
+        {
+          "seccion": "Condiciones"
+        },
+        {
+          "seccion": "Siguientes pasos"
+        }
+      ]
+    },
+    {
+      "id": "com-ventas-2026",
+      "titulo": "Ventas 2026 por pedido",
+      "archivo": "Ventas 2026 por pedido.xlsx",
+      "ruta": "corpus/comercial/Ventas 2026 por pedido.xlsx",
+      "area": "comercial",
+      "area_nombre": "Comercial",
+      "formato": "xlsx",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-30",
+      "responsable": "Sofía León",
+      "clasificacion": "Confidencial",
+      "descripcion": "Pedidos facturados de enero a septiembre de 2026. Importes netos de descuento, sin impuestos.",
+      "bytes": 35372,
+      "hojas": [
+        {
+          "nombre": "Pedidos",
+          "filas": 463,
+          "columnas": [
+            "Pedido",
+            "Fecha",
+            "Cliente ID",
+            "Cliente",
+            "Tipo de cliente",
+            "SKU",
+            "Producto",
+            "Unidades",
+            "Precio de lista",
+            "Descuento %",
+            "Importe (USD)",
+            "Ejecutivo"
+          ]
+        },
+        {
+          "nombre": "Clientes",
+          "filas": 12,
+          "columnas": [
+            "Cliente ID",
+            "Cliente",
+            "Segmento",
+            "Tipo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fin-cuentas-por-pagar",
+      "titulo": "Cuentas por pagar junio-septiembre 2026",
+      "archivo": "Cuentas por pagar jun-sep 2026.csv",
+      "ruta": "corpus/finanzas/Cuentas por pagar jun-sep 2026.csv",
+      "area": "finanzas",
+      "area_nombre": "Finanzas",
+      "formato": "csv",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-30",
+      "responsable": "Raúl Benítez",
+      "clasificacion": "Confidencial",
+      "descripcion": "Facturas de proveedores emitidas desde junio. Plazo de pago estándar: 45 días.",
+      "bytes": 9288,
+      "hojas": [
+        {
+          "nombre": "Cuentas por pagar jun-sep 2026",
+          "filas": 96,
+          "columnas": [
+            "factura",
+            "proveedor_id",
+            "proveedor",
+            "centro_costo",
+            "fecha_emision",
+            "fecha_vencimiento",
+            "monto_usd",
+            "estado",
+            "fecha_pago"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fin-estado-resultados-2026",
+      "titulo": "Estado de resultados 2026 (enero-agosto)",
+      "archivo": "Estado de resultados 2026 (enero-agosto).xlsx",
+      "ruta": "corpus/finanzas/Estado de resultados 2026 (enero-agosto).xlsx",
+      "area": "finanzas",
+      "area_nombre": "Finanzas",
+      "formato": "xlsx",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-10",
+      "responsable": "Carla Ruiz",
+      "clasificacion": "Confidencial",
+      "descripcion": "Estado de resultados mensual con ingresos reales frente a presupuesto. Septiembre aún no tiene cierre contable.",
+      "bytes": 8386,
+      "hojas": [
+        {
+          "nombre": "Estado de resultados",
+          "filas": 8,
+          "columnas": [
+            "Mes",
+            "Ingresos presupuesto",
+            "Ingresos",
+            "Costo de materiales",
+            "Costo de manufactura",
+            "Costo de ventas",
+            "Utilidad bruta",
+            "Margen bruto %",
+            "Gastos de operación",
+            "Utilidad de operación",
+            "EBITDA",
+            "Gastos financieros",
+            "Utilidad antes de impuestos",
+            "Impuestos",
+            "Utilidad neta"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fin-gastos-viaje-2026",
+      "titulo": "Gastos de viaje 2026",
+      "archivo": "Gastos de viaje 2026.csv",
+      "ruta": "corpus/finanzas/Gastos de viaje 2026.csv",
+      "area": "finanzas",
+      "area_nombre": "Finanzas",
+      "formato": "csv",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-30",
+      "responsable": "Raúl Benítez",
+      "clasificacion": "Confidencial",
+      "descripcion": "Líneas de gasto reportadas por viaje (una fila por concepto).",
+      "bytes": 15732,
+      "hojas": [
+        {
+          "nombre": "Gastos de viaje 2026",
+          "filas": 108,
+          "columnas": [
+            "id_gasto",
+            "id_viaje",
+            "empleado_id",
+            "empleado",
+            "centro_costo",
+            "destino",
+            "tipo_viaje",
+            "fecha_inicio",
+            "fecha_regreso",
+            "fecha_reporte",
+            "concepto",
+            "cantidad",
+            "monto_total_usd",
+            "comprobante",
+            "notas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fin-informe-q2-2026",
+      "titulo": "Informe financiero del segundo trimestre de 2026",
+      "archivo": "Informe financiero Q2 2026.pdf",
+      "ruta": "corpus/finanzas/Informe financiero Q2 2026.pdf",
+      "area": "finanzas",
+      "area_nombre": "Finanzas",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "INF-FIN-2026-Q2",
+      "version": "1.0",
+      "fecha": "2026-07-14",
+      "responsable": "Carla Ruiz",
+      "clasificacion": "Confidencial",
+      "descripcion": "En el segundo trimestre de 2026 (abril a junio), Nexora Industrial S.A. registró ingresos por 7,970,902.35 USD, por encima del presupuesto de 7,550,000 USD en 5.6%. Frente al primer trimestre (6,930,429.05 USD), los ingresos crecieron 15.0%",
+      "bytes": 6038,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Resumen ejecutivo",
+          "pagina": 1
+        },
+        {
+          "seccion": "Resultados del trimestre",
+          "pagina": 1
+        },
+        {
+          "seccion": "Ventas",
+          "pagina": 1
+        },
+        {
+          "seccion": "Gastos por centro de costo",
+          "pagina": 2
+        },
+        {
+          "seccion": "Perspectivas",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "fin-padron-proveedores",
+      "titulo": "Padrón de proveedores aprobados",
+      "archivo": "Padrón de proveedores aprobados.csv",
+      "ruta": "corpus/finanzas/Padrón de proveedores aprobados.csv",
+      "area": "finanzas",
+      "area_nombre": "Finanzas",
+      "formato": "csv",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-07-01",
+      "responsable": "Pablo Iturbe",
+      "clasificacion": "Confidencial",
+      "descripcion": "Proveedores con alta vigente. Solo se puede comprar a proveedores de este padrón.",
+      "bytes": 858,
+      "hojas": [
+        {
+          "nombre": "Padrón de proveedores aprobados",
+          "filas": 12,
+          "columnas": [
+            "proveedor_id",
+            "nombre",
+            "rubro",
+            "evaluacion_2025",
+            "contrato_marco"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fin-politica-compras",
+      "titulo": "Política de compras y adquisiciones",
+      "archivo": "Política de compras y adquisiciones.pdf",
+      "ruta": "corpus/finanzas/Política de compras y adquisiciones.pdf",
+      "area": "finanzas",
+      "area_nombre": "Finanzas",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "POL-FIN-003",
+      "version": "2.4",
+      "fecha": "2026-02-01",
+      "responsable": "Pablo Iturbe",
+      "clasificacion": "Interna",
+      "descripcion": "Asegurar que las compras de bienes y servicios de Nexora Industrial S.A. se realicen con transparencia, al mejor costo total y con proveedores confiables.",
+      "bytes": 5880,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Objetivo",
+          "pagina": 1
+        },
+        {
+          "seccion": "Alcance",
+          "pagina": 1
+        },
+        {
+          "seccion": "Solicitud de compra",
+          "pagina": 1
+        },
+        {
+          "seccion": "Número de cotizaciones requeridas",
+          "pagina": 1
+        },
+        {
+          "seccion": "Aprobación",
+          "pagina": 1
+        },
+        {
+          "seccion": "Padrón de proveedores aprobados",
+          "pagina": 2
+        },
+        {
+          "seccion": "Condiciones de pago",
+          "pagina": 2
+        },
+        {
+          "seccion": "Recepción",
+          "pagina": 2
+        },
+        {
+          "seccion": "Compras urgentes",
+          "pagina": 2
+        },
+        {
+          "seccion": "Prohibiciones",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "fin-politica-viaticos",
+      "titulo": "Política de viáticos y gastos de viaje",
+      "archivo": "Política de viáticos.pdf",
+      "ruta": "corpus/finanzas/Política de viáticos.pdf",
+      "area": "finanzas",
+      "area_nombre": "Finanzas",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "POL-FIN-004",
+      "version": "3.1",
+      "fecha": "2026-01-15",
+      "responsable": "Carla Ruiz",
+      "clasificacion": "Interna",
+      "descripcion": "Establecer las reglas para solicitar, ejercer, comprobar y reembolsar los gastos de viaje de trabajo. Aplica a todos los empleados de Nexora Industrial S.A. que viajen por motivos laborales, tanto a destinos nacionales como internacionales.",
+      "bytes": 6105,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Objetivo y alcance",
+          "pagina": 1
+        },
+        {
+          "seccion": "Autorización del viaje",
+          "pagina": 1
+        },
+        {
+          "seccion": "Anticipos",
+          "pagina": 1
+        },
+        {
+          "seccion": "Topes de gasto",
+          "pagina": 1
+        },
+        {
+          "seccion": "Transporte",
+          "pagina": 1
+        },
+        {
+          "seccion": "Gastos no reembolsables",
+          "pagina": 2
+        },
+        {
+          "seccion": "Comprobantes",
+          "pagina": 2
+        },
+        {
+          "seccion": "Reporte y comprobación",
+          "pagina": 2
+        },
+        {
+          "seccion": "Aprobación y reembolso",
+          "pagina": 2
+        },
+        {
+          "seccion": "Auditoría",
+          "pagina": 2
+        },
+        {
+          "seccion": "Contacto",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "fin-presupuesto-2026",
+      "titulo": "Presupuesto de gastos 2026 por centro de costo",
+      "archivo": "Presupuesto de gastos 2026 por centro de costo.xlsx",
+      "ruta": "corpus/finanzas/Presupuesto de gastos 2026 por centro de costo.xlsx",
+      "area": "finanzas",
+      "area_nombre": "Finanzas",
+      "formato": "xlsx",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-10",
+      "responsable": "Carla Ruiz",
+      "clasificacion": "Confidencial",
+      "descripcion": "Presupuesto mensual y gasto real (enero-agosto) por centro de costo, con variaciones.",
+      "bytes": 14222,
+      "hojas": [
+        {
+          "nombre": "Presupuesto vs real",
+          "filas": 144,
+          "columnas": [
+            "Centro de costo",
+            "Nombre",
+            "Área",
+            "Mes (núm.)",
+            "Mes",
+            "Presupuesto",
+            "Real",
+            "Variación",
+            "Variación %"
+          ]
+        },
+        {
+          "nombre": "Centros de costo",
+          "filas": 12,
+          "columnas": [
+            "Centro de costo",
+            "Nombre",
+            "Área",
+            "Presupuesto anual"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fin-procedimiento-cierre",
+      "titulo": "Procedimiento de cierre contable mensual",
+      "archivo": "Procedimiento de cierre contable mensual.docx",
+      "ruta": "corpus/finanzas/Procedimiento de cierre contable mensual.docx",
+      "area": "finanzas",
+      "area_nombre": "Finanzas",
+      "formato": "docx",
+      "tipo": "documento",
+      "codigo": "PRO-FIN-001",
+      "version": "1.6",
+      "fecha": "2025-11-01",
+      "responsable": "Raúl Benítez",
+      "clasificacion": "Interna",
+      "descripcion": "Describir las actividades, responsables y fechas límite para cerrar la contabilidad de cada mes y emitir los estados financieros de Nexora Industrial S.A.",
+      "bytes": 13204,
+      "secciones": [
+        {
+          "seccion": "Objetivo"
+        },
+        {
+          "seccion": "Calendario de cierre"
+        },
+        {
+          "seccion": "Actividades principales"
+        },
+        {
+          "seccion": "Provisiones"
+        },
+        {
+          "seccion": "Conciliaciones"
+        },
+        {
+          "seccion": "Análisis de variaciones"
+        },
+        {
+          "seccion": "Informes"
+        },
+        {
+          "seccion": "Controles"
+        }
+      ]
+    },
+    {
+      "id": "leg-acta-comite-julio-2026",
+      "titulo": "Acta del Comité de Dirección - Sesión ordinaria de julio de 2026",
+      "archivo": "Acta Comité de Dirección julio 2026.docx",
+      "ruta": "corpus/legal/Acta Comité de Dirección julio 2026.docx",
+      "area": "legal",
+      "area_nombre": "Legal",
+      "formato": "docx",
+      "tipo": "documento",
+      "codigo": "ACT-DIR-2026-07",
+      "version": "1.0",
+      "fecha": "2026-07-20",
+      "responsable": "Luis Méndez",
+      "clasificacion": "Confidencial",
+      "descripcion": "La Directora de Finanzas presentó el Informe financiero del segundo trimestre de 2026. Los ingresos del trimestre fueron de 7,970,902.35 USD, 5.6% por encima del presupuesto, con un margen bruto de 35.5%. El Comité tomó conocimiento de los ",
+      "bytes": 13368,
+      "secciones": [
+        {
+          "seccion": "Datos de la sesión"
+        },
+        {
+          "seccion": "Orden del día"
+        },
+        {
+          "seccion": "1. Resultados financieros del segundo trimestre"
+        },
+        {
+          "seccion": "2. Sobrecosto de Mantenimiento"
+        },
+        {
+          "seccion": "3. Desempeño del proveedor de mantenimiento"
+        },
+        {
+          "seccion": "4. Plataforma Knowledge AI"
+        },
+        {
+          "seccion": "5. Asuntos varios"
+        }
+      ]
+    },
+    {
+      "id": "leg-codigo-etica",
+      "titulo": "Código de ética y conducta",
+      "archivo": "Código de ética y conducta.pdf",
+      "ruta": "corpus/legal/Código de ética y conducta.pdf",
+      "area": "legal",
+      "area_nombre": "Legal",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "POL-LEG-001",
+      "version": "4.0",
+      "fecha": "2025-03-01",
+      "responsable": "Luis Méndez",
+      "clasificacion": "Pública",
+      "descripcion": "En Nexora Industrial S.A. creemos que la forma en que hacemos las cosas importa tanto como los resultados. Este código describe los comportamientos que esperamos de todas las personas que trabajan en Nexora o en su nombre. Ningún objetivo d",
+      "bytes": 6504,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Mensaje de la Dirección",
+          "pagina": 1
+        },
+        {
+          "seccion": "Alcance",
+          "pagina": 1
+        },
+        {
+          "seccion": "Nuestros valores",
+          "pagina": 1
+        },
+        {
+          "seccion": "Conflictos de interés",
+          "pagina": 1
+        },
+        {
+          "seccion": "Regalos, invitaciones y hospitalidad",
+          "pagina": 1
+        },
+        {
+          "seccion": "Anticorrupción",
+          "pagina": 2
+        },
+        {
+          "seccion": "Uso de activos e información",
+          "pagina": 2
+        },
+        {
+          "seccion": "Acoso y discriminación",
+          "pagina": 2
+        },
+        {
+          "seccion": "Línea ética",
+          "pagina": 2
+        },
+        {
+          "seccion": "No represalias",
+          "pagina": 2
+        },
+        {
+          "seccion": "Consecuencias",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "leg-contrato-marco-proveedores",
+      "titulo": "Contrato marco de suministro con proveedores 2026",
+      "archivo": "Contrato marco proveedores 2026.pdf",
+      "ruta": "corpus/legal/Contrato marco proveedores 2026.pdf",
+      "area": "legal",
+      "area_nombre": "Legal",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "CON-LEG-001",
+      "version": "2.0",
+      "fecha": "2026-02-01",
+      "responsable": "Luis Méndez",
+      "clasificacion": "Confidencial",
+      "descripcion": "El presente contrato marco regula las condiciones generales bajo las cuales los proveedores incluidos en el Padrón de proveedores aprobados suministran materias primas, componentes y refacciones a Nexora Industrial S.A. (en adelante, \"Nexor",
+      "bytes": 6773,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Objeto y alcance",
+          "pagina": 1
+        },
+        {
+          "seccion": "Vigencia y renovación",
+          "pagina": 1
+        },
+        {
+          "seccion": "Pedidos y entregas",
+          "pagina": 1
+        },
+        {
+          "seccion": "Penalizaciones por retraso",
+          "pagina": 1
+        },
+        {
+          "seccion": "Precios y condiciones de pago",
+          "pagina": 1
+        },
+        {
+          "seccion": "Calidad y garantía",
+          "pagina": 2
+        },
+        {
+          "seccion": "Seguros",
+          "pagina": 2
+        },
+        {
+          "seccion": "Confidencialidad",
+          "pagina": 2
+        },
+        {
+          "seccion": "Terminación anticipada",
+          "pagina": 2
+        },
+        {
+          "seccion": "Ética y cumplimiento",
+          "pagina": 2
+        },
+        {
+          "seccion": "Jurisdicción",
+          "pagina": 2
+        },
+        {
+          "seccion": "Firmas",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "leg-contrato-arvelo",
+      "titulo": "Contrato de servicios de mantenimiento industrial con Servicios Técnicos Arvelo S.A.",
+      "archivo": "Contrato servicios de mantenimiento Arvelo.pdf",
+      "ruta": "corpus/legal/Contrato servicios de mantenimiento Arvelo.pdf",
+      "area": "legal",
+      "area_nombre": "Legal",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "CT-2026-004",
+      "version": "1.0",
+      "fecha": "2026-03-01",
+      "responsable": "Elena Vargas",
+      "clasificacion": "Confidencial",
+      "descripcion": "Contrato de prestación de servicios entre Nexora Industrial S.A. (\"Nexora\") y Servicios Técnicos Arvelo S.A. (\"el Prestador\"). El Prestador proporcionará servicios de mantenimiento correctivo especializado y soporte al mantenimiento prevent",
+      "bytes": 6299,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Partes y objeto",
+          "pagina": 1
+        },
+        {
+          "seccion": "Vigencia",
+          "pagina": 1
+        },
+        {
+          "seccion": "Contraprestación",
+          "pagina": 1
+        },
+        {
+          "seccion": "Niveles de servicio (SLA)",
+          "pagina": 1
+        },
+        {
+          "seccion": "Penalizaciones",
+          "pagina": 2
+        },
+        {
+          "seccion": "Obligaciones del Prestador",
+          "pagina": 2
+        },
+        {
+          "seccion": "Obligaciones de Nexora",
+          "pagina": 2
+        },
+        {
+          "seccion": "Revisión de desempeño",
+          "pagina": 2
+        },
+        {
+          "seccion": "Confidencialidad y jurisdicción",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "leg-plantilla-nda",
+      "titulo": "Plantilla de acuerdo de confidencialidad (NDA)",
+      "archivo": "Plantilla acuerdo de confidencialidad NDA.docx",
+      "ruta": "corpus/legal/Plantilla acuerdo de confidencialidad NDA.docx",
+      "area": "legal",
+      "area_nombre": "Legal",
+      "formato": "docx",
+      "tipo": "documento",
+      "codigo": "FOR-LEG-002",
+      "version": "1.3",
+      "fecha": "2025-05-15",
+      "responsable": "Luis Méndez",
+      "clasificacion": "Interna",
+      "descripcion": "Acuerdo de confidencialidad que celebran, por una parte, Nexora Industrial S.A. (\"Nexora\"), representada por [nombre del representante], y por la otra, [razón social de la contraparte] (\"la Contraparte\"), representada por [nombre del repres",
+      "bytes": 13355,
+      "secciones": [
+        {
+          "seccion": "Partes"
+        },
+        {
+          "seccion": "Primera. Objeto"
+        },
+        {
+          "seccion": "Segunda. Información confidencial"
+        },
+        {
+          "seccion": "Tercera. Obligaciones"
+        },
+        {
+          "seccion": "Cuarta. Vigencia"
+        },
+        {
+          "seccion": "Quinta. Devolución de información"
+        },
+        {
+          "seccion": "Sexta. Propiedad intelectual"
+        },
+        {
+          "seccion": "Séptima. Incumplimiento"
+        },
+        {
+          "seccion": "Octava. Jurisdicción"
+        },
+        {
+          "seccion": "Firmas"
+        }
+      ]
+    },
+    {
+      "id": "leg-politica-firmas",
+      "titulo": "Política de firmas y niveles de aprobación",
+      "archivo": "Política de firmas y niveles de aprobación.docx",
+      "ruta": "corpus/legal/Política de firmas y niveles de aprobación.docx",
+      "area": "legal",
+      "area_nombre": "Legal",
+      "formato": "docx",
+      "tipo": "documento",
+      "codigo": "POL-LEG-002",
+      "version": "3.0",
+      "fecha": "2026-01-10",
+      "responsable": "Luis Méndez",
+      "clasificacion": "Interna",
+      "descripcion": "Definir quién puede aprobar gastos, compras y contratos en nombre de Nexora Industrial S.A., según el monto y el tipo de compromiso, para asegurar el control interno y la separación de funciones.",
+      "bytes": 13232,
+      "secciones": [
+        {
+          "seccion": "Objetivo"
+        },
+        {
+          "seccion": "Principios generales"
+        },
+        {
+          "seccion": "Niveles de aprobación de gastos y compras"
+        },
+        {
+          "seccion": "Contratos"
+        },
+        {
+          "seccion": "Descuentos comerciales"
+        },
+        {
+          "seccion": "Pagos"
+        },
+        {
+          "seccion": "Ausencias y delegación"
+        },
+        {
+          "seccion": "Incumplimiento"
+        }
+      ]
+    },
+    {
+      "id": "leg-proteccion-datos",
+      "titulo": "Política de protección de datos personales y clasificación de la información",
+      "archivo": "Política de protección de datos personales.pdf",
+      "ruta": "corpus/legal/Política de protección de datos personales.pdf",
+      "area": "legal",
+      "area_nombre": "Legal",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "POL-LEG-003",
+      "version": "2.1",
+      "fecha": "2025-09-01",
+      "responsable": "Irene Castaño",
+      "clasificacion": "Interna",
+      "descripcion": "Establecer las reglas para recabar, usar, almacenar, compartir y eliminar datos personales de empleados, candidatos, clientes y proveedores, así como para clasificar y proteger la información de Nexora Industrial S.A.",
+      "bytes": 6584,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Objetivo",
+          "pagina": 1
+        },
+        {
+          "seccion": "Responsable",
+          "pagina": 1
+        },
+        {
+          "seccion": "Principios",
+          "pagina": 1
+        },
+        {
+          "seccion": "Clasificación de la información",
+          "pagina": 1
+        },
+        {
+          "seccion": "Plazos de conservación",
+          "pagina": 2
+        },
+        {
+          "seccion": "Derechos de los titulares",
+          "pagina": 2
+        },
+        {
+          "seccion": "Incidentes de seguridad y brechas de datos",
+          "pagina": 2
+        },
+        {
+          "seccion": "Uso de herramientas de inteligencia artificial",
+          "pagina": 2
+        },
+        {
+          "seccion": "Capacitación",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "leg-registro-contratos",
+      "titulo": "Registro de contratos",
+      "archivo": "Registro de contratos.xlsx",
+      "ruta": "corpus/legal/Registro de contratos.xlsx",
+      "area": "legal",
+      "area_nombre": "Legal",
+      "formato": "xlsx",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-30",
+      "responsable": "Luis Méndez",
+      "clasificacion": "Confidencial",
+      "descripcion": "Contratos celebrados por Nexora con fechas, montos, responsables y condiciones de renovación.",
+      "bytes": 8928,
+      "hojas": [
+        {
+          "nombre": "Contratos",
+          "filas": 24,
+          "columnas": [
+            "Contrato",
+            "Contraparte",
+            "Tipo",
+            "Inicio",
+            "Fin",
+            "Monto anual (USD)",
+            "Responsable",
+            "Renovación automática",
+            "Preaviso (días)",
+            "Estado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "op-bitacora-turno-l2",
+      "titulo": "Bitácora de turno - Línea 2 - 22 de septiembre de 2026",
+      "archivo": "Bitácora de turno L2 2026-09-22.txt",
+      "ruta": "corpus/operaciones/Bitácora de turno L2 2026-09-22.txt",
+      "area": "operaciones",
+      "area_nombre": "Operaciones",
+      "formato": "txt",
+      "tipo": "documento",
+      "codigo": "BIT-L2-20260922",
+      "version": "1.0",
+      "fecha": "2026-09-22",
+      "responsable": "Jorge Paz",
+      "clasificacion": "Interna",
+      "descripcion": "BITÁCORA DE TURNO - LÍNEA 2 (MECANIZADO CNC) - PLANTA NORTE Fecha: 22/09/2026",
+      "bytes": 1810
+    },
+    {
+      "id": "op-ficha-nx250",
+      "titulo": "Ficha técnica - Bomba centrífuga NX-250",
+      "archivo": "Ficha técnica bomba NX-250.pdf",
+      "ruta": "corpus/operaciones/Ficha técnica bomba NX-250.pdf",
+      "area": "operaciones",
+      "area_nombre": "Operaciones",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "FT-NX-250",
+      "version": "2.0",
+      "fecha": "2025-08-01",
+      "responsable": "Elena Vargas",
+      "clasificacion": "Pública",
+      "descripcion": "La NX-250 es una bomba centrífuga horizontal de una etapa, diseñada para el bombeo de agua limpia o ligeramente cargada en aplicaciones municipales, agrícolas, mineras e industriales. Es el modelo de mayor venta de Nexora.",
+      "bytes": 5147,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Descripción",
+          "pagina": 1
+        },
+        {
+          "seccion": "Datos de desempeño",
+          "pagina": 1
+        },
+        {
+          "seccion": "Construcción",
+          "pagina": 1
+        },
+        {
+          "seccion": "Instalación",
+          "pagina": 1
+        },
+        {
+          "seccion": "Mantenimiento recomendado",
+          "pagina": 2
+        },
+        {
+          "seccion": "Garantía",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "op-calibracion-bancos",
+      "titulo": "Instrucción de trabajo - Calibración de bancos de prueba",
+      "archivo": "Instrucción de trabajo - Calibración de bancos de prueba.docx",
+      "ruta": "corpus/operaciones/Instrucción de trabajo - Calibración de bancos de prueba.docx",
+      "area": "operaciones",
+      "area_nombre": "Operaciones",
+      "formato": "docx",
+      "tipo": "documento",
+      "codigo": "IT-OP-047",
+      "version": "1.8",
+      "fecha": "2025-12-01",
+      "responsable": "Elena Vargas",
+      "clasificacion": "Interna",
+      "descripcion": "Asegurar que los bancos de prueba BP-501 y BP-502 de la Línea 5 (Planta Sur) midan correctamente el caudal, la presión y la potencia de las bombas NX antes de su liberación al cliente.",
+      "bytes": 13050,
+      "secciones": [
+        {
+          "seccion": "Objetivo"
+        },
+        {
+          "seccion": "Frecuencia"
+        },
+        {
+          "seccion": "Instrumentos y tolerancias"
+        },
+        {
+          "seccion": "Patrones"
+        },
+        {
+          "seccion": "Procedimiento"
+        },
+        {
+          "seccion": "Registro"
+        },
+        {
+          "seccion": "Producto probado con un banco fuera de tolerancia"
+        }
+      ]
+    },
+    {
+      "id": "op-inventario-repuestos",
+      "titulo": "Inventario de repuestos",
+      "archivo": "Inventario de repuestos.xlsx",
+      "ruta": "corpus/operaciones/Inventario de repuestos.xlsx",
+      "area": "operaciones",
+      "area_nombre": "Operaciones",
+      "formato": "xlsx",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-30",
+      "responsable": "Jorge Paz",
+      "clasificacion": "Confidencial",
+      "descripcion": "Existencias de repuestos de mantenimiento por planta, con stock mínimo y proveedor.",
+      "bytes": 11446,
+      "hojas": [
+        {
+          "nombre": "Inventario",
+          "filas": 59,
+          "columnas": [
+            "Código",
+            "Sede",
+            "Categoría",
+            "Descripción",
+            "Ubicación",
+            "Stock",
+            "Stock mínimo",
+            "Consumo mensual",
+            "Costo unitario (USD)",
+            "Proveedor ID",
+            "Proveedor",
+            "Tiempo de entrega (días)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "op-manual-seguridad",
+      "titulo": "Manual de seguridad industrial",
+      "archivo": "Manual de seguridad industrial.pdf",
+      "ruta": "corpus/operaciones/Manual de seguridad industrial.pdf",
+      "area": "operaciones",
+      "area_nombre": "Operaciones",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "MAN-OP-001",
+      "version": "4.1",
+      "fecha": "2026-03-01",
+      "responsable": "Tomás Rivas",
+      "clasificacion": "Interna",
+      "descripcion": "En Nexora Industrial S.A. la seguridad es el primer valor. Cualquier persona tiene la autoridad y la obligación de detener un trabajo que considere inseguro, sin represalias.",
+      "bytes": 6098,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Política de seguridad",
+          "pagina": 1
+        },
+        {
+          "seccion": "Inducción y capacitación",
+          "pagina": 1
+        },
+        {
+          "seccion": "Equipo de protección personal (EPP)",
+          "pagina": 1
+        },
+        {
+          "seccion": "Bloqueo y etiquetado (LOTO)",
+          "pagina": 1
+        },
+        {
+          "seccion": "Permisos de trabajo",
+          "pagina": 2
+        },
+        {
+          "seccion": "Reporte de incidentes",
+          "pagina": 2
+        },
+        {
+          "seccion": "Indicadores",
+          "pagina": 2
+        },
+        {
+          "seccion": "Comisión de seguridad e higiene",
+          "pagina": 2
+        },
+        {
+          "seccion": "Contratistas",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "op-ordenes-mantenimiento",
+      "titulo": "Órdenes de mantenimiento 2026",
+      "archivo": "Órdenes de mantenimiento 2026.csv",
+      "ruta": "corpus/operaciones/Órdenes de mantenimiento 2026.csv",
+      "area": "operaciones",
+      "area_nombre": "Operaciones",
+      "formato": "csv",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-30",
+      "responsable": "Jorge Paz",
+      "clasificacion": "Confidencial",
+      "descripcion": "Exportación del sistema de mantenimiento (CMMS) con órdenes preventivas, correctivas y predictivas.",
+      "bytes": 21393,
+      "hojas": [
+        {
+          "nombre": "Órdenes de mantenimiento 2026",
+          "filas": 155,
+          "columnas": [
+            "orden",
+            "fecha_creacion",
+            "sede",
+            "linea",
+            "equipo",
+            "tipo",
+            "prioridad",
+            "ejecutor",
+            "estado",
+            "fecha_cierre",
+            "horas_resolucion",
+            "sla_horas",
+            "cumple_sla"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "op-plan-produccion-q3",
+      "titulo": "Plan de producción Q3 2026",
+      "archivo": "Plan de producción Q3 2026.xlsx",
+      "ruta": "corpus/operaciones/Plan de producción Q3 2026.xlsx",
+      "area": "operaciones",
+      "area_nombre": "Operaciones",
+      "formato": "xlsx",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-30",
+      "responsable": "Elena Vargas",
+      "clasificacion": "Confidencial",
+      "descripcion": "Unidades planeadas y producidas por producto en el tercer trimestre.",
+      "bytes": 7921,
+      "hojas": [
+        {
+          "nombre": "Plan Q3",
+          "filas": 21,
+          "columnas": [
+            "Mes",
+            "SKU",
+            "Producto",
+            "Línea",
+            "Unidades plan",
+            "Unidades reales",
+            "Cumplimiento %",
+            "Comentario"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "op-respuesta-emergencias",
+      "titulo": "Plan de respuesta a emergencias",
+      "archivo": "Plan de respuesta a emergencias.pdf",
+      "ruta": "corpus/operaciones/Plan de respuesta a emergencias.pdf",
+      "area": "operaciones",
+      "area_nombre": "Operaciones",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "PLN-OP-003",
+      "version": "2.5",
+      "fecha": "2026-02-01",
+      "responsable": "Tomás Rivas",
+      "clasificacion": "Interna",
+      "descripcion": "Proteger la vida de las personas, el medio ambiente y las instalaciones ante emergencias en cualquiera de las sedes de Nexora Industrial S.A.",
+      "bytes": 5605,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Objetivo",
+          "pagina": 1
+        },
+        {
+          "seccion": "Número de emergencia",
+          "pagina": 1
+        },
+        {
+          "seccion": "Brigadas",
+          "pagina": 1
+        },
+        {
+          "seccion": "Puntos de reunión",
+          "pagina": 1
+        },
+        {
+          "seccion": "Procedimientos por tipo de emergencia",
+          "pagina": 1
+        },
+        {
+          "seccion": "Incendio",
+          "pagina": 1
+        },
+        {
+          "seccion": "Sismo",
+          "pagina": 2
+        },
+        {
+          "seccion": "Derrame químico",
+          "pagina": 2
+        },
+        {
+          "seccion": "Lesión grave",
+          "pagina": 2
+        },
+        {
+          "seccion": "Simulacros",
+          "pagina": 2
+        },
+        {
+          "seccion": "Después de la emergencia",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "op-mantenimiento-l2",
+      "titulo": "Procedimiento de mantenimiento preventivo - Línea 2 (mecanizado CNC)",
+      "archivo": "Procedimiento de mantenimiento L2.pdf",
+      "ruta": "corpus/operaciones/Procedimiento de mantenimiento L2.pdf",
+      "area": "operaciones",
+      "area_nombre": "Operaciones",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "PRO-OP-022",
+      "version": "3.2",
+      "fecha": "2026-07-15",
+      "responsable": "Jorge Paz",
+      "clasificacion": "Interna",
+      "descripcion": "Definir las rutinas de mantenimiento preventivo de los equipos de la Línea 2 de Planta Norte, donde se mecanizan carcasas, impulsores y ejes de las bombas NX. Aplica a los tornos CNC T-201 y T-202 y a los centros de mecanizado CM-203 y CM-2",
+      "bytes": 6354,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Objetivo y alcance",
+          "pagina": 1
+        },
+        {
+          "seccion": "Responsabilidades",
+          "pagina": 1
+        },
+        {
+          "seccion": "Condiciones de seguridad",
+          "pagina": 1
+        },
+        {
+          "seccion": "Rutinas de mantenimiento",
+          "pagina": 1
+        },
+        {
+          "seccion": "Diaria (operador, inicio de cada turno)",
+          "pagina": 1
+        },
+        {
+          "seccion": "Semanal (técnico)",
+          "pagina": 1
+        },
+        {
+          "seccion": "Mensual (técnico)",
+          "pagina": 2
+        },
+        {
+          "seccion": "Trimestral (técnico)",
+          "pagina": 2
+        },
+        {
+          "seccion": "Anual (técnico con apoyo del proveedor externo)",
+          "pagina": 2
+        },
+        {
+          "seccion": "Criterios para detener el equipo",
+          "pagina": 2
+        },
+        {
+          "seccion": "Refacciones críticas",
+          "pagina": 2
+        },
+        {
+          "seccion": "Registro",
+          "pagina": 2
+        },
+        {
+          "seccion": "Historial de cambios",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "op-incidentes-seguridad",
+      "titulo": "Registro de incidentes de seguridad 2026",
+      "archivo": "Registro de incidentes de seguridad 2026.csv",
+      "ruta": "corpus/operaciones/Registro de incidentes de seguridad 2026.csv",
+      "area": "operaciones",
+      "area_nombre": "Operaciones",
+      "formato": "csv",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-30",
+      "responsable": "Tomás Rivas",
+      "clasificacion": "Confidencial",
+      "descripcion": "Incidentes, casi accidentes y condiciones inseguras reportados con el formato F-701.",
+      "bytes": 6177,
+      "hojas": [
+        {
+          "nombre": "Registro de incidentes de seguridad 2026",
+          "filas": 44,
+          "columnas": [
+            "folio",
+            "fecha",
+            "sede",
+            "lugar",
+            "tipo",
+            "descripcion",
+            "dias_perdidos",
+            "causa_raiz",
+            "accion_correctiva"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rh-comunicado-cierre-anual",
+      "titulo": "Comunicado - Paro programado de fin de año 2026",
+      "archivo": "Comunicado paro programado fin de año 2026.txt",
+      "ruta": "corpus/recursos-humanos/Comunicado paro programado fin de año 2026.txt",
+      "area": "recursos-humanos",
+      "area_nombre": "Recursos Humanos",
+      "formato": "txt",
+      "tipo": "documento",
+      "codigo": "COM-RH-2026-09",
+      "version": "1.0",
+      "fecha": "2026-09-25",
+      "responsable": "Ana Torres",
+      "clasificacion": "Interna",
+      "descripcion": "De: Recursos Humanos <rrhh@nexora-industrial.example> Para: Todo el personal de Planta Norte y Planta Sur Fecha: 25 de septiembre de 2026 Asunto: Paro programado de fin de año 2026 y guardias de mantenimiento",
+      "bytes": 1376
+    },
+    {
+      "id": "rh-puesto-tecnico-mantenimiento",
+      "titulo": "Descripción de puesto - Técnico de mantenimiento",
+      "archivo": "Descripción de puesto - Técnico de mantenimiento.docx",
+      "ruta": "corpus/recursos-humanos/Descripción de puesto - Técnico de mantenimiento.docx",
+      "area": "recursos-humanos",
+      "area_nombre": "Recursos Humanos",
+      "formato": "docx",
+      "tipo": "documento",
+      "codigo": "DP-OP-014",
+      "version": "1.4",
+      "fecha": "2025-06-01",
+      "responsable": "Ana Torres",
+      "clasificacion": "Interna",
+      "descripcion": "Mantener la disponibilidad y confiabilidad de los equipos de producción mediante la ejecución de mantenimiento preventivo, correctivo y predictivo, cumpliendo los procedimientos de seguridad y calidad.",
+      "bytes": 13184,
+      "secciones": [
+        {
+          "seccion": "Identificación del puesto"
+        },
+        {
+          "seccion": "Propósito"
+        },
+        {
+          "seccion": "Responsabilidades principales"
+        },
+        {
+          "seccion": "Indicadores de desempeño"
+        },
+        {
+          "seccion": "Requisitos"
+        },
+        {
+          "seccion": "Certificaciones obligatorias"
+        },
+        {
+          "seccion": "Equipo de protección personal"
+        },
+        {
+          "seccion": "Condiciones del puesto"
+        }
+      ]
+    },
+    {
+      "id": "rh-manual-onboarding",
+      "titulo": "Manual de onboarding para nuevos colaboradores",
+      "archivo": "Manual de onboarding.docx",
+      "ruta": "corpus/recursos-humanos/Manual de onboarding.docx",
+      "area": "recursos-humanos",
+      "area_nombre": "Recursos Humanos",
+      "formato": "docx",
+      "tipo": "documento",
+      "codigo": "MAN-RH-001",
+      "version": "5.0",
+      "fecha": "2026-02-15",
+      "responsable": "Ana Torres",
+      "clasificacion": "Interna",
+      "descripcion": "Te damos la bienvenida a Nexora Industrial S.A. Desde 1998 fabricamos bombas centrífugas y válvulas industriales que mueven agua, minerales y procesos en todo el país. Este manual te acompaña en tus primeros 90 días: qué hacer, a quién acud",
+      "bytes": 14029,
+      "secciones": [
+        {
+          "seccion": "Bienvenida"
+        },
+        {
+          "seccion": "Nuestra organización"
+        },
+        {
+          "seccion": "Tu primer día"
+        },
+        {
+          "seccion": "Tu primera semana"
+        },
+        {
+          "seccion": "Periodo de prueba y mentoría"
+        },
+        {
+          "seccion": "Herramientas y sistemas"
+        },
+        {
+          "seccion": "Trámites frecuentes"
+        },
+        {
+          "seccion": "Contactos útiles"
+        },
+        {
+          "seccion": "Horario y comedor"
+        },
+        {
+          "seccion": "Checklist de los primeros 90 días"
+        }
+      ]
+    },
+    {
+      "id": "rh-beneficios-2026",
+      "titulo": "Plan de beneficios 2026",
+      "archivo": "Plan de beneficios 2026.pdf",
+      "ruta": "corpus/recursos-humanos/Plan de beneficios 2026.pdf",
+      "area": "recursos-humanos",
+      "area_nombre": "Recursos Humanos",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "PLN-RH-2026",
+      "version": "1.0",
+      "fecha": "2026-01-01",
+      "responsable": "Ana Torres",
+      "clasificacion": "Interna",
+      "descripcion": "Este documento resume las prestaciones que Nexora Industrial S.A. ofrece a su personal durante 2026, adicionales a las que establece la ley. Salvo que se indique lo contrario, aplican a todo el personal con contrato por tiempo indeterminado",
+      "bytes": 5564,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Introducción",
+          "pagina": 1
+        },
+        {
+          "seccion": "Salud y seguros",
+          "pagina": 1
+        },
+        {
+          "seccion": "Ahorro y apoyos económicos",
+          "pagina": 1
+        },
+        {
+          "seccion": "Desarrollo",
+          "pagina": 1
+        },
+        {
+          "seccion": "Bienestar",
+          "pagina": 2
+        },
+        {
+          "seccion": "Bono por desempeño",
+          "pagina": 2
+        },
+        {
+          "seccion": "Aguinaldo",
+          "pagina": 2
+        },
+        {
+          "seccion": "Cómo usar tus beneficios",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "rh-plantilla-personal",
+      "titulo": "Plantilla de personal",
+      "archivo": "Plantilla de personal.xlsx",
+      "ruta": "corpus/recursos-humanos/Plantilla de personal.xlsx",
+      "area": "recursos-humanos",
+      "area_nombre": "Recursos Humanos",
+      "formato": "xlsx",
+      "tipo": "datos",
+      "codigo": null,
+      "version": null,
+      "fecha": "2026-09-30",
+      "responsable": "Ana Torres",
+      "clasificacion": "Confidencial",
+      "descripcion": "Personal activo al 30 de septiembre de 2026, con antigüedad y saldo de vacaciones.",
+      "bytes": 26412,
+      "hojas": [
+        {
+          "nombre": "Personal",
+          "filas": 320,
+          "columnas": [
+            "ID",
+            "Nombre",
+            "Área",
+            "Puesto",
+            "Sede",
+            "Turno",
+            "Fecha de ingreso",
+            "Tipo de contrato",
+            "Antigüedad (años)",
+            "Días de vacaciones (derecho)",
+            "Días tomados 2026"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rh-politica-teletrabajo",
+      "titulo": "Política de teletrabajo",
+      "archivo": "Política de teletrabajo.pdf",
+      "ruta": "corpus/recursos-humanos/Política de teletrabajo.pdf",
+      "area": "recursos-humanos",
+      "area_nombre": "Recursos Humanos",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "POL-RH-004",
+      "version": "1.2",
+      "fecha": "2025-10-01",
+      "responsable": "Ana Torres",
+      "clasificacion": "Interna",
+      "descripcion": "Permitir que el personal con funciones compatibles trabaje de forma remota parte de la semana, manteniendo la productividad, la colaboración y la seguridad de la información.",
+      "bytes": 5013,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Objetivo",
+          "pagina": 1
+        },
+        {
+          "seccion": "Elegibilidad",
+          "pagina": 1
+        },
+        {
+          "seccion": "Modalidad",
+          "pagina": 1
+        },
+        {
+          "seccion": "Horario núcleo",
+          "pagina": 1
+        },
+        {
+          "seccion": "Solicitud",
+          "pagina": 1
+        },
+        {
+          "seccion": "Apoyo económico",
+          "pagina": 1
+        },
+        {
+          "seccion": "Seguridad de la información",
+          "pagina": 2
+        },
+        {
+          "seccion": "Terminación",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "rh-politica-vacaciones",
+      "titulo": "Política de vacaciones y permisos",
+      "archivo": "Política de vacaciones y permisos.pdf",
+      "ruta": "corpus/recursos-humanos/Política de vacaciones y permisos.pdf",
+      "area": "recursos-humanos",
+      "area_nombre": "Recursos Humanos",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "POL-RH-003",
+      "version": "2.0",
+      "fecha": "2026-01-01",
+      "responsable": "Ana Torres",
+      "clasificacion": "Interna",
+      "descripcion": "Establecer los días de vacaciones que corresponden al personal, la forma de solicitarlos y los permisos especiales con y sin goce de sueldo.",
+      "bytes": 5855,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Objetivo",
+          "pagina": 1
+        },
+        {
+          "seccion": "Días de vacaciones por antigüedad",
+          "pagina": 1
+        },
+        {
+          "seccion": "Prima vacacional",
+          "pagina": 1
+        },
+        {
+          "seccion": "Solicitud y aprobación",
+          "pagina": 1
+        },
+        {
+          "seccion": "Acumulación y vencimiento",
+          "pagina": 2
+        },
+        {
+          "seccion": "Cierre de fin de año",
+          "pagina": 2
+        },
+        {
+          "seccion": "Permisos con goce de sueldo",
+          "pagina": 2
+        },
+        {
+          "seccion": "Permisos sin goce de sueldo",
+          "pagina": 2
+        }
+      ]
+    },
+    {
+      "id": "rh-faq",
+      "titulo": "Preguntas frecuentes de Recursos Humanos",
+      "archivo": "Preguntas frecuentes de RRHH.md",
+      "ruta": "corpus/recursos-humanos/Preguntas frecuentes de RRHH.md",
+      "area": "recursos-humanos",
+      "area_nombre": "Recursos Humanos",
+      "formato": "md",
+      "tipo": "documento",
+      "codigo": "FAQ-RH-001",
+      "version": "2026.2",
+      "fecha": "2026-07-01",
+      "responsable": "Ana Torres",
+      "clasificacion": "Interna",
+      "descripcion": "La nómina se paga de forma quincenal, los días 15 y último de cada mes. Si el día de pago cae en fin de semana o día festivo, se paga el día hábil anterior.",
+      "bytes": 2737
+    },
+    {
+      "id": "rh-evaluacion-desempeno",
+      "titulo": "Procedimiento de evaluación de desempeño",
+      "archivo": "Procedimiento de evaluación de desempeño.docx",
+      "ruta": "corpus/recursos-humanos/Procedimiento de evaluación de desempeño.docx",
+      "area": "recursos-humanos",
+      "area_nombre": "Recursos Humanos",
+      "formato": "docx",
+      "tipo": "documento",
+      "codigo": "PRO-RH-005",
+      "version": "2.3",
+      "fecha": "2026-01-15",
+      "responsable": "Ana Torres",
+      "clasificacion": "Interna",
+      "descripcion": "Evaluar de manera objetiva el cumplimiento de objetivos y competencias del personal, retroalimentar su desarrollo y sustentar las decisiones de bono, aumentos salariales y promociones.",
+      "bytes": 13141,
+      "secciones": [
+        {
+          "seccion": "Objetivo"
+        },
+        {
+          "seccion": "Alcance"
+        },
+        {
+          "seccion": "Ciclo anual"
+        },
+        {
+          "seccion": "Escala de calificación"
+        },
+        {
+          "seccion": "Calibración"
+        },
+        {
+          "seccion": "Relación con el bono por desempeño"
+        },
+        {
+          "seccion": "Plan de mejora"
+        },
+        {
+          "seccion": "Inconformidades"
+        }
+      ]
+    },
+    {
+      "id": "rh-reglamento-interno",
+      "titulo": "Reglamento interno de trabajo",
+      "archivo": "Reglamento interno de trabajo.pdf",
+      "ruta": "corpus/recursos-humanos/Reglamento interno de trabajo.pdf",
+      "area": "recursos-humanos",
+      "area_nombre": "Recursos Humanos",
+      "formato": "pdf",
+      "tipo": "documento",
+      "codigo": "REG-RH-001",
+      "version": "6.2",
+      "fecha": "2025-07-01",
+      "responsable": "Ana Torres",
+      "clasificacion": "Interna",
+      "descripcion": "Este reglamento es obligatorio para todo el personal de Nexora Industrial S.A. en sus tres sedes. Complementa lo dispuesto en los contratos individuales de trabajo y en la legislación laboral aplicable.",
+      "bytes": 5662,
+      "paginas": 2,
+      "secciones": [
+        {
+          "seccion": "Disposiciones generales",
+          "pagina": 1
+        },
+        {
+          "seccion": "Jornada y horarios",
+          "pagina": 1
+        },
+        {
+          "seccion": "Puntualidad y asistencia",
+          "pagina": 1
+        },
+        {
+          "seccion": "Tiempo extra",
+          "pagina": 1
+        },
+        {
+          "seccion": "Uniforme y presentación",
+          "pagina": 1
+        },
+        {
+          "seccion": "Seguridad e higiene",
+          "pagina": 2
+        },
+        {
+          "seccion": "Obligaciones del personal",
+          "pagina": 2
+        },
+        {
+          "seccion": "Medidas disciplinarias",
+          "pagina": 2
+        },
+        {
+          "seccion": "Quejas y sugerencias",
+          "pagina": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+oportunidad,cliente,es_prospecto,producto_principal,unidades,valor_estimado_usd,etapa,probabilidad,fecha_cierre_estimada,ejecutivo
+OP-26001,Municipio de San Aurelio,No,VX-80,235,86856,Calificación,0.25,2027-02-01,Leonardo Guerrero Ibarra
+OP-26002,Hospital Regional Santa Inés,No,NX-400,48,728640,Prospección,0.1,2026-11-17,Julia Cortés Salazar
+OP-26003,Refinadora Puerto Nuevo,Sí,NX-150,31,113509.6,Ganada,1,2026-07-09,Cecilia Navarro Soto
+OP-26004,Agroindustrias La Pradera,No,NX-150,38,139140.8,Calificación,0.25,2027-02-05,Óscar Cortés Flores
+OP-26005,Municipio de San Aurelio,No,NX-100,55,118580,Calificación,0.25,2027-02-02,Óscar Cortés Flores
+OP-26006,Lácteos Pradera Verde,Sí,VX-120,259,177777.6,Ganada,1,2026-06-13,Cecilia Navarro Soto
+OP-26007,Minera Cerro Alto,No,VX-80,227,83899.2,Propuesta,0.5,2026-11-28,Leonardo Guerrero Ibarra
+OP-26008,Agroindustrias La Pradera,No,NX-150,48,175756.8,Negociación,0.75,2026-12-11,Fernanda Salazar Medina
+OP-26009,Parque Industrial Las Lomas,Sí,VX-50,145,39556,Calificación,0.25,2027-02-16,Gustavo Pacheco Valdez
+OP-26010,Lácteos Pradera Verde,Sí,VX-50,41,11693.2,Propuesta,0.5,2027-02-13,Leonardo Guerrero Ibarra
+OP-26011,Agroindustrias La Pradera,No,VX-120,103,70699.2,Negociación,0.75,2027-01-23,Leonardo Guerrero Ibarra
+OP-26012,Riegos Tecnificados del Sur,No,NX-150,11,41591,Ganada,1,2026-07-25,Óscar Cortés Flores
+OP-26013,Aguas del Valle S.A.,No,NX-400,21,329175,Negociación,0.75,2027-01-07,Gustavo Pacheco Valdez
+OP-26014,Bombas y Equipos del Litoral,No,VX-50,140,38192,Calificación,0.25,2026-12-17,Cecilia Navarro Soto
+OP-26015,Refinadora Puerto Nuevo,Sí,NX-100,48,108192,Ganada,1,2026-07-25,Óscar Cortés Flores
+OP-26016,Parque Industrial Las Lomas,Sí,NX-250,14,118370,Negociación,0.75,2026-11-22,Leonardo Guerrero Ibarra
+OP-26017,Acuícola Bahía Serena,Sí,VX-80,391,144513.6,Perdida,0,2026-09-13,Cecilia Navarro Soto
+OP-26018,Lácteos Pradera Verde,Sí,NX-100,50,107800,Calificación,0.25,2026-12-16,Fernanda Salazar Medina
+OP-26019,Constructora Pilar & Viga,Sí,NX-250,25,204700,Calificación,0.25,2026-10-10,Cecilia Navarro Soto
+OP-26020,Riegos Tecnificados del Sur,No,VX-120,54,37065.6,Negociación,0.75,2026-12-27,Gustavo Pacheco Valdez
+OP-26021,Parque Industrial Las Lomas,Sí,VX-80,95,35112,Calificación,0.25,2026-10-14,Leonardo Guerrero Ibarra
+OP-26022,Textiles Arcoíris,No,NX-150,22,83182,Ganada,1,2026-08-03,Julián Escobar Valdez
+OP-26023,Acuícola Bahía Serena,Sí,NX-250,47,384836,Negociación,0.75,2027-01-26,Gustavo Pacheco Valdez
+OP-26024,Lácteos Pradera Verde,Sí,NX-250,35,286580,Propuesta,0.5,2027-02-25,Cecilia Navarro Soto
+OP-26025,Agroindustrias La Pradera,No,VX-50,191,52104.8,Prospección,0.1,2027-02-18,Gustavo Pacheco Valdez
+OP-26026,Minera Cerro Alto,No,NX-150,20,75620,Ganada,1,2026-07-30,Julia Cortés Salazar
+OP-26027,Papelera Río Claro,No,VX-120,262,179836.8,Ganada,1,2026-09-03,Óscar Cortés Flores
+OP-26028,Petroquímica Delta Sur,No,VX-80,147,54331.2,Calificación,0.25,2027-01-13,Óscar Cortés Flores
+OP-26029,Acuícola Bahía Serena,Sí,NX-400,26,394680,Calificación,0.25,2027-02-21,Fernanda Salazar Medina
+OP-26030,Aguas del Valle S.A.,No,VX-120,243,166795.2,Perdida,0,2026-09-05,Gustavo Pacheco Valdez
+OP-26031,Aguas del Valle S.A.,No,NX-250,14,118370,Propuesta,0.5,2026-10-18,Cecilia Navarro Soto
+OP-26032,Agroindustrias La Pradera,No,VX-80,335,123816,Propuesta,0.5,2027-02-03,Julia Cortés Salazar
+OP-26033,Agroindustrias La Pradera,No,NX-400,59,856680,Calificación,0.25,2027-02-23,Cecilia Navarro Soto
+OP-26034,Hospital Regional Santa Inés,No,NX-400,56,813120,Calificación,0.25,2027-01-19,Fernanda Salazar Medina
+OP-26035,Minera Cerro Alto,No,VX-50,138,37646.4,Calificación,0.25,2026-10-21,Cecilia Navarro Soto
+OP-26036,Cervecería Montes Azules,No,VX-80,214,79094.4,Calificación,0.25,2026-11-27,Gustavo Pacheco Valdez
+OP-26037,Hidrotec Distribuciones,No,NX-400,45,683100,Prospección,0.1,2026-11-16,Fernanda Salazar Medina
+OP-26038,Ingenio Azucarero El Trapiche,Sí,VX-120,358,245731.2,Calificación,0.25,2027-02-08,Yolanda Espinoza Arias
+OP-26039,Petroquímica Delta Sur,No,NX-250,22,186010,Propuesta,0.5,2026-11-15,Yolanda Espinoza Arias
+OP-26040,Papelera Río Claro,No,NX-100,50,107800,Propuesta,0.5,2026-11-28,Fernanda Salazar Medina
+OP-26041,Refinadora Puerto Nuevo,Sí,VX-50,191,52104.8,Prospección,0.1,2026-12-29,Yolanda Espinoza Arias
+OP-26042,Hospital Regional Santa Inés,No,NX-400,50,726000,Negociación,0.75,2026-11-18,Óscar Cortés Flores
+OP-26043,Lácteos Pradera Verde,Sí,NX-250,50,391600,Calificación,0.25,2027-02-27,Cecilia Navarro Soto
+OP-26044,Minera Cerro Alto,No,NX-400,45,683100,Negociación,0.75,2026-12-17,Yolanda Espinoza Arias
+OP-26045,Acuícola Bahía Serena,Sí,VX-120,386,264950.4,Negociación,0.75,2027-01-27,Yolanda Espinoza Arias
+OP-26046,Municipio de San Aurelio,No,VX-50,368,100390.4,Negociación,0.75,2026-11-10,Julia Cortés Salazar
+OP-26047,Hidrotec Distribuciones,No,NX-150,51,178622.4,Ganada,1,2026-07-04,Yolanda Espinoza Arias
+OP-26048,Petroquímica Delta Sur,No,VX-120,397,272500.8,Prospección,0.1,2026-11-12,Cecilia Navarro Soto

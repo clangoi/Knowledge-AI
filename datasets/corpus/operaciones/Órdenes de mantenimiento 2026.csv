@@ -1,0 +1,156 @@
+orden,fecha_creacion,sede,linea,equipo,tipo,prioridad,ejecutor,estado,fecha_cierre,horas_resolucion,sla_horas,cumple_sla
+OT-260068,2026-01-05,Planta Norte,Línea 2,Torno CNC T-202,Correctivo,Crítica,Gustavo Reyes Figueroa,Cerrada,2026-01-06,7,24,Sí
+OT-260080,2026-01-05,Planta Norte,Línea 1,Horno de inducción H-101,Preventivo,Baja,Bruno Garrido Maldonado,Cerrada,2026-01-09,93,240,Sí
+OT-260083,2026-01-07,Planta Sur,Línea 4,Línea de ensamble E-401,Predictivo,Media,Sergio Cabrera Bravo,Cerrada,2026-01-15,192,120,No
+OT-260059,2026-01-08,Planta Norte,Línea 2,Centro de mecanizado CM-204,Correctivo,Alta,Patricia Acosta Molina,Cerrada,2026-01-10,32,48,Sí
+OT-260089,2026-01-10,Planta Sur,Línea 4,Atornilladora automática A-402,Preventivo,Media,Francisco Escobar Valdez,Cerrada,2026-01-14,75,120,Sí
+OT-260120,2026-01-11,Planta Norte,Línea 2,Torno CNC T-201,Preventivo,Baja,Gustavo Reyes Figueroa,Cerrada,2026-01-15,76,240,Sí
+OT-260057,2026-01-13,Planta Norte,Línea 3,Rectificadora R-301,Correctivo,Crítica,Julián Mejía Orozco,Cerrada,2026-01-14,16,24,Sí
+OT-260118,2026-01-13,Planta Norte,Línea 1,Granalladora G-103,Predictivo,Crítica,Bruno Garrido Maldonado,Cerrada,2026-01-14,8,24,Sí
+OT-260105,2026-01-17,Planta Norte,Línea 1,Moldeadora automática M-102,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-01-18,16,24,Sí
+OT-260130,2026-01-18,Planta Norte,Línea 1,Moldeadora automática M-102,Correctivo,Alta,Francisco Luna Gallardo,Cerrada,2026-01-20,41,48,Sí
+OT-260134,2026-01-18,Planta Norte,Línea 2,Torno CNC T-201,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-01-19,16,24,Sí
+OT-260079,2026-01-21,Planta Norte,Línea 2,Centro de mecanizado CM-204,Preventivo,Baja,Eduardo Núñez Aguilar,Cerrada,2026-02-08,420,240,No
+OT-260100,2026-01-21,Planta Norte,Línea 3,Rectificadora R-301,Preventivo,Baja,Gustavo Reyes Figueroa,Cerrada,2026-01-25,89,240,Sí
+OT-260115,2026-01-22,Planta Sur,Línea 4,Línea de ensamble E-401,Correctivo,Alta,Francisco Escobar Valdez,Cerrada,2026-01-24,28,48,Sí
+OT-260117,2026-01-22,Planta Norte,Línea 3,Balanceadora dinámica B-302,Predictivo,Crítica,Elisa Marín Gallardo,Cerrada,2026-01-23,11,24,Sí
+OT-260032,2026-01-23,Planta Sur,Línea 5,Cabina de pintura CP-503,Preventivo,Baja,Francisco Escobar Valdez,Cerrada,2026-02-05,301,240,No
+OT-260036,2026-01-24,Planta Norte,Línea 1,Horno de inducción H-101,Preventivo,Media,Iván Miranda Reyes,Cerrada,2026-01-27,56,120,Sí
+OT-260112,2026-01-24,Planta Sur,Línea 4,Línea de ensamble E-401,Preventivo,Baja,Fernanda Marín Guerrero,Cerrada,2026-01-30,128,240,Sí
+OT-260129,2026-01-25,Planta Sur,Línea 5,Banco de pruebas BP-502,Preventivo,Baja,Joaquín Montoya Luna,Cerrada,2026-02-02,185,240,Sí
+OT-260020,2026-01-30,Planta Sur,Línea 4,Línea de ensamble E-401,Predictivo,Media,Sergio Cabrera Bravo,Cerrada,2026-02-03,93,120,Sí
+OT-260051,2026-01-31,Planta Sur,Línea 4,Atornilladora automática A-402,Predictivo,Crítica,Sergio Cabrera Bravo,Cerrada,2026-02-01,8,24,Sí
+OT-260128,2026-01-31,Planta Norte,Línea 2,Torno CNC T-202,Preventivo,Baja,Bruno Zamora Navarro,Cerrada,2026-02-10,217,240,Sí
+OT-260122,2026-02-02,Planta Norte,Línea 1,Granalladora G-103,Preventivo,Media,Natalia Maldonado Salazar,Cerrada,2026-02-05,65,120,Sí
+OT-260017,2026-02-06,Planta Norte,Línea 3,Rectificadora R-301,Preventivo,Media,Julián Mejía Orozco,Cerrada,2026-02-10,95,120,Sí
+OT-260087,2026-02-06,Planta Norte,Línea 3,Rectificadora R-301,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-02-07,19,24,Sí
+OT-260066,2026-02-08,Planta Sur,Línea 5,Cabina de pintura CP-503,Predictivo,Media,Francisco Escobar Valdez,Cerrada,2026-02-10,40,120,Sí
+OT-260038,2026-02-10,Planta Norte,Línea 2,Centro de mecanizado CM-203,Correctivo,Alta,Servicios Técnicos Arvelo S.A.,Cerrada,2026-02-12,38,48,Sí
+OT-260081,2026-02-15,Planta Norte,Línea 2,Centro de mecanizado CM-203,Preventivo,Media,Julián Mejía Orozco,Cerrada,2026-02-17,39,120,Sí
+OT-260108,2026-02-18,Planta Sur,Línea 4,Línea de ensamble E-401,Correctivo,Media,Carlos Mejía Ibarra,Cerrada,2026-02-21,51,120,Sí
+OT-260140,2026-02-22,Planta Norte,Línea 2,Centro de mecanizado CM-203,Correctivo,Media,Nicolás Valdez Maldonado,Cerrada,2026-02-28,135,120,No
+OT-260011,2026-02-23,Planta Norte,Línea 2,Centro de mecanizado CM-203,Preventivo,Baja,Óscar Ríos Delgado,Cerrada,2026-03-01,126,240,Sí
+OT-260053,2026-02-26,Planta Norte,Línea 1,Horno de inducción H-101,Predictivo,Crítica,Nicolás Valdez Maldonado,Cerrada,2026-02-27,16,24,Sí
+OT-260045,2026-02-28,Planta Sur,Línea 5,Banco de pruebas BP-502,Preventivo,Baja,Gustavo Delgado Figueroa,Cerrada,2026-03-05,109,240,Sí
+OT-260063,2026-03-02,Planta Norte,Línea 2,Centro de mecanizado CM-203,Correctivo,Alta,Servicios Técnicos Arvelo S.A.,Cerrada,2026-03-03,20,48,Sí
+OT-260137,2026-03-02,Planta Norte,Línea 2,Centro de mecanizado CM-204,Predictivo,Crítica,Bruno Zamora Navarro,Cerrada,2026-03-03,21,24,Sí
+OT-260141,2026-03-03,Planta Norte,Línea 2,Torno CNC T-201,Preventivo,Baja,Julián Mejía Orozco,Cerrada,2026-03-12,195,240,Sí
+OT-260026,2026-03-04,Planta Sur,Línea 5,Cabina de pintura CP-503,Preventivo,Baja,Nicolás Delgado Marín,Cerrada,2026-03-09,109,240,Sí
+OT-260043,2026-03-05,Planta Norte,Línea 3,Balanceadora dinámica B-302,Preventivo,Baja,Iván Miranda Reyes,Cerrada,2026-03-15,228,240,Sí
+OT-260077,2026-03-06,Planta Norte,Línea 1,Horno de inducción H-101,Preventivo,Baja,Patricia Acosta Molina,Cerrada,2026-03-13,159,240,Sí
+OT-260095,2026-03-07,Planta Norte,Línea 3,Rectificadora R-301,Preventivo,Media,Patricia Acosta Molina,Cerrada,2026-03-09,26,120,Sí
+OT-260110,2026-03-07,Planta Norte,Línea 1,Horno de inducción H-101,Correctivo,Alta,Servicios Técnicos Arvelo S.A.,Cerrada,2026-03-08,21,48,Sí
+OT-260127,2026-03-07,Planta Sur,Línea 5,Banco de pruebas BP-501,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-03-08,21,24,Sí
+OT-260121,2026-03-12,Planta Norte,Línea 3,Rectificadora R-301,Preventivo,Media,Elisa Marín Gallardo,Cerrada,2026-03-15,71,120,Sí
+OT-260056,2026-03-14,Planta Norte,Línea 2,Torno CNC T-202,Preventivo,Media,Nicolás Valdez Maldonado,Cerrada,2026-03-18,91,120,Sí
+OT-260034,2026-03-17,Planta Sur,Línea 5,Banco de pruebas BP-502,Preventivo,Media,Nicolás Delgado Marín,Cerrada,2026-03-20,60,120,Sí
+OT-260099,2026-03-20,Planta Norte,Línea 3,Rectificadora R-301,Preventivo,Media,Bruno Garrido Maldonado,Cerrada,2026-03-24,92,120,Sí
+OT-260098,2026-03-24,Planta Norte,Línea 2,Torno CNC T-201,Preventivo,Baja,Eduardo Núñez Aguilar,Cerrada,2026-03-28,96,240,Sí
+OT-260019,2026-03-30,Planta Sur,Línea 5,Banco de pruebas BP-501,Preventivo,Media,Fernanda Marín Guerrero,Cerrada,2026-04-01,41,120,Sí
+OT-260111,2026-03-30,Planta Norte,Línea 1,Granalladora G-103,Preventivo,Media,Elisa Marín Gallardo,Cerrada,2026-04-08,204,120,No
+OT-260054,2026-04-03,Planta Norte,Línea 1,Horno de inducción H-101,Preventivo,Baja,Elisa Marín Gallardo,Cerrada,2026-04-10,164,240,Sí
+OT-260123,2026-04-03,Planta Sur,Línea 4,Línea de ensamble E-401,Correctivo,Crítica,Francisco Escobar Valdez,Cerrada,2026-04-04,7,24,Sí
+OT-260048,2026-04-04,Planta Norte,Línea 2,Centro de mecanizado CM-204,Predictivo,Crítica,Julián Mejía Orozco,Cerrada,2026-04-05,18,24,Sí
+OT-260135,2026-04-05,Planta Norte,Línea 1,Horno de inducción H-101,Preventivo,Media,Elisa Marín Gallardo,Cerrada,2026-04-09,86,120,Sí
+OT-260037,2026-04-08,Planta Norte,Línea 2,Torno CNC T-202,Preventivo,Baja,Elisa Marín Gallardo,Cerrada,2026-04-15,158,240,Sí
+OT-260142,2026-04-13,Planta Norte,Línea 1,Horno de inducción H-101,Predictivo,Alta,Gustavo Reyes Figueroa,Cerrada,2026-04-15,32,48,Sí
+OT-260102,2026-04-15,Planta Norte,Línea 2,Torno CNC T-201,Correctivo,Alta,Elisa Marín Gallardo,Cerrada,2026-04-17,32,48,Sí
+OT-260085,2026-04-16,Planta Norte,Línea 1,Horno de inducción H-101,Correctivo,Media,Gustavo Reyes Figueroa,Cerrada,2026-04-21,109,120,Sí
+OT-260070,2026-04-20,Planta Sur,Línea 5,Banco de pruebas BP-502,Predictivo,Alta,Joaquín Montoya Luna,Cerrada,2026-04-23,61,48,No
+OT-260022,2026-04-23,Planta Norte,Línea 3,Balanceadora dinámica B-302,Preventivo,Baja,Natalia Maldonado Salazar,Cerrada,2026-04-26,61,240,Sí
+OT-260091,2026-04-24,Planta Norte,Línea 1,Horno de inducción H-101,Preventivo,Baja,Bruno Zamora Navarro,Cerrada,2026-05-01,154,240,Sí
+OT-260004,2026-04-26,Planta Norte,Línea 1,Horno de inducción H-101,Preventivo,Media,Francisco Luna Gallardo,Cerrada,2026-04-29,61,120,Sí
+OT-260092,2026-04-26,Planta Norte,Línea 2,Torno CNC T-202,Preventivo,Media,Natalia Maldonado Salazar,Cerrada,2026-05-01,100,120,Sí
+OT-260013,2026-04-29,Planta Norte,Línea 1,Granalladora G-103,Predictivo,Alta,Cecilia Figueroa Castillo,Cerrada,2026-05-01,25,48,Sí
+OT-260028,2026-04-29,Planta Norte,Línea 2,Torno CNC T-201,Preventivo,Media,Natalia Maldonado Salazar,Cerrada,2026-05-03,90,120,Sí
+OT-260008,2026-05-01,Planta Norte,Línea 2,Centro de mecanizado CM-203,Correctivo,Media,Eduardo Núñez Aguilar,Cerrada,2026-05-05,89,120,Sí
+OT-260082,2026-05-07,Planta Sur,Línea 5,Banco de pruebas BP-502,Correctivo,Media,Servicios Técnicos Arvelo S.A.,Cerrada,2026-05-10,52,120,Sí
+OT-260075,2026-05-08,Planta Norte,Línea 2,Centro de mecanizado CM-203,Correctivo,Alta,Bruno Garrido Maldonado,Cerrada,2026-05-09,21,48,Sí
+OT-260124,2026-05-08,Planta Norte,Línea 2,Torno CNC T-202,Correctivo,Crítica,Natalia Maldonado Salazar,Cerrada,2026-05-09,10,24,Sí
+OT-260107,2026-05-10,Planta Sur,Línea 5,Banco de pruebas BP-501,Preventivo,Baja,Nicolás Delgado Marín,Cerrada,2026-05-17,164,240,Sí
+OT-260148,2026-05-10,Planta Sur,Línea 4,Atornilladora automática A-402,Correctivo,Alta,Nicolás Delgado Marín,Cerrada,2026-05-11,19,48,Sí
+OT-260042,2026-05-11,Planta Norte,Línea 3,Balanceadora dinámica B-302,Correctivo,Alta,Natalia Maldonado Salazar,Cerrada,2026-05-12,13,48,Sí
+OT-260031,2026-05-12,Planta Sur,Línea 5,Banco de pruebas BP-502,Preventivo,Baja,Carlos Mejía Ibarra,Cerrada,2026-05-18,132,240,Sí
+OT-260139,2026-05-12,Planta Norte,Línea 2,Centro de mecanizado CM-204,Preventivo,Media,Bruno Zamora Navarro,Cerrada,2026-05-15,60,120,Sí
+OT-260145,2026-05-12,Planta Norte,Línea 2,Torno CNC T-202,Predictivo,Alta,Patricia Acosta Molina,Cerrada,2026-05-16,78,48,No
+OT-260084,2026-05-16,Planta Norte,Línea 3,Rectificadora R-301,Predictivo,Alta,Bruno Garrido Maldonado,Cerrada,2026-05-17,15,48,Sí
+OT-260106,2026-05-16,Planta Sur,Línea 5,Banco de pruebas BP-502,Predictivo,Alta,Óscar Cano Navarro,Cerrada,2026-05-17,10,48,Sí
+OT-260047,2026-05-17,Planta Norte,Línea 1,Granalladora G-103,Preventivo,Media,Gustavo Reyes Figueroa,Cerrada,2026-05-20,69,120,Sí
+OT-260086,2026-05-25,Planta Norte,Línea 1,Granalladora G-103,Preventivo,Baja,Francisco Luna Gallardo,Cerrada,2026-05-29,92,240,Sí
+OT-260149,2026-05-26,Planta Norte,Línea 2,Centro de mecanizado CM-203,Preventivo,Baja,Francisco Luna Gallardo,Cerrada,2026-06-01,136,240,Sí
+OT-260060,2026-05-28,Planta Norte,Línea 2,Torno CNC T-201,Preventivo,Media,Cecilia Figueroa Castillo,Cerrada,2026-06-01,92,120,Sí
+OT-260030,2026-05-30,Planta Norte,Línea 1,Horno de inducción H-101,Correctivo,Alta,Iván Miranda Reyes,Cerrada,2026-06-01,33,48,Sí
+OT-260058,2026-05-30,Planta Norte,Línea 1,Moldeadora automática M-102,Predictivo,Media,Patricia Acosta Molina,Cerrada,2026-06-04,113,120,Sí
+OT-260097,2026-06-03,Planta Norte,Línea 2,Centro de mecanizado CM-204,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-06-04,8,24,Sí
+OT-260090,2026-06-04,Planta Norte,Línea 1,Horno de inducción H-101,Correctivo,Crítica,Francisco Luna Gallardo,Cerrada,2026-06-05,20,24,Sí
+OT-260041,2026-06-06,Planta Sur,Línea 4,Atornilladora automática A-402,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-06-07,7,24,Sí
+OT-260094,2026-06-07,Planta Norte,Línea 2,Centro de mecanizado CM-204,Correctivo,Alta,Servicios Técnicos Arvelo S.A.,Cerrada,2026-06-09,42,48,Sí
+OT-260005,2026-06-09,Planta Norte,Línea 2,Torno CNC T-202,Preventivo,Media,Iván Miranda Reyes,Cerrada,2026-06-11,34,120,Sí
+OT-260049,2026-06-09,Planta Norte,Línea 2,Centro de mecanizado CM-203,Preventivo,Media,Bruno Garrido Maldonado,Cerrada,2026-06-12,70,120,Sí
+OT-260113,2026-06-09,Planta Sur,Línea 5,Banco de pruebas BP-502,Predictivo,Media,Gustavo Delgado Figueroa,Cerrada,2026-06-11,44,120,Sí
+OT-260046,2026-06-13,Planta Norte,Línea 1,Granalladora G-103,Predictivo,Alta,Patricia Acosta Molina,Cerrada,2026-06-15,32,48,Sí
+OT-260050,2026-06-16,Planta Sur,Línea 5,Cabina de pintura CP-503,Preventivo,Media,Francisco Escobar Valdez,Cerrada,2026-06-20,75,120,Sí
+OT-260076,2026-06-18,Planta Norte,Línea 2,Torno CNC T-202,Preventivo,Media,Óscar Ríos Delgado,Cerrada,2026-06-20,43,120,Sí
+OT-260133,2026-06-18,Planta Norte,Línea 1,Moldeadora automática M-102,Preventivo,Baja,Gustavo Reyes Figueroa,Cerrada,2026-06-27,211,240,Sí
+OT-260007,2026-06-22,Planta Sur,Línea 5,Banco de pruebas BP-501,Correctivo,Media,Teresa Pacheco Molina,Cerrada,2026-06-25,54,120,Sí
+OT-260016,2026-06-23,Planta Norte,Línea 3,Balanceadora dinámica B-302,Correctivo,Media,Cecilia Figueroa Castillo,Cerrada,2026-06-28,104,120,Sí
+OT-260126,2026-06-24,Planta Sur,Línea 5,Banco de pruebas BP-501,Preventivo,Media,Francisco Escobar Valdez,Cerrada,2026-06-26,26,120,Sí
+OT-260136,2026-06-24,Planta Norte,Línea 2,Centro de mecanizado CM-204,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-06-25,15,24,Sí
+OT-260014,2026-06-26,Planta Sur,Línea 5,Banco de pruebas BP-501,Preventivo,Media,Francisco Escobar Valdez,Cerrada,2026-06-28,39,120,Sí
+OT-260061,2026-06-27,Planta Norte,Línea 2,Centro de mecanizado CM-204,Preventivo,Baja,Óscar Ríos Delgado,Cerrada,2026-07-04,160,240,Sí
+OT-260029,2026-06-28,Planta Sur,Línea 4,Atornilladora automática A-402,Correctivo,Alta,Joaquín Montoya Luna,Cerrada,2026-06-30,37,48,Sí
+OT-260125,2026-06-30,Planta Norte,Línea 1,Horno de inducción H-101,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-07-01,8,24,Sí
+OT-260010,2026-07-01,Planta Norte,Línea 3,Rectificadora R-301,Predictivo,Crítica,Bruno Garrido Maldonado,Cerrada,2026-07-02,18,24,Sí
+OT-260093,2026-07-02,Planta Norte,Línea 1,Granalladora G-103,Preventivo,Baja,Francisco Luna Gallardo,Cerrada,2026-07-09,154,240,Sí
+OT-260035,2026-07-03,Planta Norte,Línea 2,Centro de mecanizado CM-204,Predictivo,Alta,Óscar Ríos Delgado,Cerrada,2026-07-04,17,48,Sí
+OT-260055,2026-07-04,Planta Norte,Línea 2,Centro de mecanizado CM-203,Correctivo,Alta,Servicios Técnicos Arvelo S.A.,Cerrada,2026-07-06,38,48,Sí
+OT-260065,2026-07-05,Planta Norte,Línea 2,Torno CNC T-202,Preventivo,Baja,Elisa Marín Gallardo,Cerrada,2026-07-13,174,240,Sí
+OT-260116,2026-07-05,Planta Norte,Línea 1,Granalladora G-103,Correctivo,Alta,Francisco Luna Gallardo,Cerrada,2026-07-07,36,48,Sí
+OT-260009,2026-07-06,Planta Sur,Línea 5,Cabina de pintura CP-503,Correctivo,Media,Servicios Técnicos Arvelo S.A.,Cerrada,2026-07-11,101,120,Sí
+OT-260132,2026-07-12,Planta Sur,Línea 4,Atornilladora automática A-402,Correctivo,Media,Servicios Técnicos Arvelo S.A.,Cerrada,2026-07-14,31,120,Sí
+OT-260024,2026-07-13,Planta Sur,Línea 5,Banco de pruebas BP-502,Preventivo,Baja,Rebeca Acosta Luna,Cerrada,2026-07-16,52,240,Sí
+OT-260033,2026-07-13,Planta Norte,Línea 2,Centro de mecanizado CM-204,Preventivo,Baja,Cecilia Figueroa Castillo,Cerrada,2026-07-23,224,240,Sí
+OT-260071,2026-07-16,Planta Norte,Línea 2,Torno CNC T-201,Preventivo,Baja,Alejandra Robles Cano,Cerrada,2026-07-21,115,240,Sí
+OT-260062,2026-07-18,Planta Norte,Línea 3,Rectificadora R-301,Correctivo,Alta,Servicios Técnicos Arvelo S.A.,Cerrada,2026-07-19,19,48,Sí
+OT-260101,2026-07-18,Planta Norte,Línea 2,Torno CNC T-202,Correctivo,Crítica,Francisco Luna Gallardo,Cerrada,2026-07-19,13,24,Sí
+OT-260023,2026-07-19,Planta Norte,Línea 3,Balanceadora dinámica B-302,Correctivo,Alta,Bruno Zamora Navarro,Cerrada,2026-07-20,21,48,Sí
+OT-260088,2026-07-19,Planta Norte,Línea 3,Rectificadora R-301,Preventivo,Baja,Eduardo Núñez Aguilar,Cerrada,2026-07-22,65,240,Sí
+OT-260006,2026-07-21,Planta Norte,Línea 2,Torno CNC T-201,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-07-22,22,24,Sí
+OT-260074,2026-07-22,Planta Sur,Línea 4,Línea de ensamble E-401,Preventivo,Baja,Fernanda Marín Guerrero,Cerrada,2026-07-29,152,240,Sí
+OT-260114,2026-07-22,Planta Norte,Línea 2,Torno CNC T-201,Preventivo,Baja,Elisa Marín Gallardo,Cerrada,2026-07-29,164,240,Sí
+OT-260001,2026-07-24,Planta Norte,Línea 2,Torno CNC T-202,Preventivo,Baja,Cecilia Figueroa Castillo,Cerrada,2026-07-29,101,240,Sí
+OT-260078,2026-07-24,Planta Sur,Línea 5,Banco de pruebas BP-502,Preventivo,Baja,Nicolás Delgado Marín,Cerrada,2026-08-02,215,240,Sí
+OT-260027,2026-08-04,Planta Sur,Línea 5,Banco de pruebas BP-501,Preventivo,Media,Gustavo Delgado Figueroa,Cerrada,2026-08-13,211,120,No
+OT-260104,2026-08-04,Planta Norte,Línea 2,Centro de mecanizado CM-204,Correctivo,Crítica,Francisco Luna Gallardo,Cerrada,2026-08-05,16,24,Sí
+OT-260119,2026-08-10,Planta Norte,Línea 1,Moldeadora automática M-102,Preventivo,Baja,Nicolás Valdez Maldonado,Cerrada,2026-08-14,88,240,Sí
+OT-260146,2026-08-10,Planta Norte,Línea 3,Rectificadora R-301,Preventivo,Media,Bruno Zamora Navarro,Cerrada,2026-08-15,110,120,Sí
+OT-260147,2026-08-10,Planta Norte,Línea 1,Granalladora G-103,Preventivo,Media,Elisa Marín Gallardo,Cerrada,2026-08-14,73,120,Sí
+OT-260025,2026-08-17,Planta Norte,Línea 2,Centro de mecanizado CM-203,Preventivo,Media,Patricia Acosta Molina,Cerrada,2026-08-22,101,120,Sí
+OT-260064,2026-08-21,Planta Norte,Línea 1,Horno de inducción H-101,Correctivo,Crítica,Bruno Garrido Maldonado,Cerrada,2026-08-22,8,24,Sí
+OT-260067,2026-08-21,Planta Sur,Línea 4,Atornilladora automática A-402,Predictivo,Alta,Nicolás Delgado Marín,Cerrada,2026-08-24,62,48,No
+OT-260131,2026-08-22,Planta Sur,Línea 5,Banco de pruebas BP-501,Predictivo,Crítica,Carlos Mejía Ibarra,Cerrada,2026-08-23,10,24,Sí
+OT-260021,2026-08-24,Planta Sur,Línea 4,Atornilladora automática A-402,Preventivo,Media,Joaquín Montoya Luna,Cerrada,2026-08-28,74,120,Sí
+OT-260039,2026-08-24,Planta Norte,Línea 2,Torno CNC T-201,Preventivo,Baja,Elisa Marín Gallardo,Cerrada,2026-09-01,171,240,Sí
+OT-260072,2026-08-27,Planta Norte,Línea 3,Rectificadora R-301,Predictivo,Media,Nicolás Valdez Maldonado,Cerrada,2026-08-30,58,120,Sí
+OT-260003,2026-08-30,Planta Sur,Línea 5,Banco de pruebas BP-502,Preventivo,Baja,Rebeca Acosta Luna,Cerrada,2026-09-08,209,240,Sí
+OT-260069,2026-08-30,Planta Norte,Línea 2,Torno CNC T-201,Preventivo,Media,Bruno Zamora Navarro,Cerrada,2026-09-01,31,120,Sí
+OT-260096,2026-08-30,Planta Norte,Línea 2,Torno CNC T-202,Preventivo,Media,Alejandra Robles Cano,Cerrada,2026-09-02,62,120,Sí
+OT-260015,2026-08-31,Planta Norte,Línea 1,Moldeadora automática M-102,Preventivo,Media,Bruno Zamora Navarro,Cerrada,2026-09-03,55,120,Sí
+OT-260109,2026-09-01,Planta Norte,Línea 2,Centro de mecanizado CM-204,Predictivo,Crítica,Nicolás Valdez Maldonado,Cerrada,2026-09-02,10,24,Sí
+OT-260151,2026-09-03,Planta Norte,Línea 2,Centro de mecanizado CM-203,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-09-05,31,24,No
+OT-260018,2026-09-05,Planta Norte,Línea 1,Moldeadora automática M-102,Preventivo,Media,Óscar Ríos Delgado,Cerrada,2026-09-07,47,120,Sí
+OT-260044,2026-09-06,Planta Sur,Línea 4,Línea de ensamble E-401,Correctivo,Media,Carlos Mejía Ibarra,Cerrada,2026-09-08,41,120,Sí
+OT-260103,2026-09-06,Planta Norte,Línea 2,Torno CNC T-202,Preventivo,Baja,Julián Mejía Orozco,Cerrada,2026-09-11,117,240,Sí
+OT-260002,2026-09-08,Planta Norte,Línea 2,Centro de mecanizado CM-204,Preventivo,Baja,Gustavo Reyes Figueroa,Cerrada,2026-09-17,200,240,Sí
+OT-260138,2026-09-09,Planta Norte,Línea 2,Centro de mecanizado CM-204,Preventivo,Media,Nicolás Valdez Maldonado,Cerrada,2026-09-12,59,120,Sí
+OT-260152,2026-09-11,Planta Norte,Línea 2,Torno CNC T-202,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-09-13,40,24,No
+OT-260040,2026-09-15,Planta Norte,Línea 2,Centro de mecanizado CM-204,Correctivo,Media,Elisa Marín Gallardo,Cerrada,2026-09-20,113,120,Sí
+OT-260154,2026-09-15,Planta Norte,Línea 2,Centro de mecanizado CM-203,Correctivo,Alta,Julián Mejía Orozco,En espera de refacción,,,48,
+OT-260052,2026-09-17,Planta Norte,Línea 2,Centro de mecanizado CM-203,Preventivo,Baja,Nicolás Valdez Maldonado,Cerrada,2026-09-23,144,240,Sí
+OT-260073,2026-09-21,Planta Norte,Línea 2,Torno CNC T-201,Preventivo,Baja,Patricia Acosta Molina,Abierta,,,240,
+OT-260153,2026-09-22,Planta Norte,Línea 1,Horno de inducción H-101,Correctivo,Crítica,Servicios Técnicos Arvelo S.A.,Cerrada,2026-09-24,29,24,No
+OT-260155,2026-09-22,Planta Norte,Línea 2,Torno CNC T-202,Predictivo,Media,Julián Mejía Orozco,Abierta,,,120,
+OT-260143,2026-09-23,Planta Sur,Línea 4,Línea de ensamble E-401,Preventivo,Baja,Francisco Escobar Valdez,En espera de refacción,,,240,
+OT-260012,2026-09-25,Planta Norte,Línea 1,Horno de inducción H-101,Correctivo,Media,Servicios Técnicos Arvelo S.A.,En proceso,,,120,
+OT-260150,2026-09-27,Planta Sur,Línea 4,Atornilladora automática A-402,Preventivo,Baja,Teresa Pacheco Molina,Abierta,,,240,
+OT-260144,2026-09-29,Planta Norte,Línea 3,Rectificadora R-301,Correctivo,Crítica,Eduardo Núñez Aguilar,En espera de refacción,,,24,

@@ -1,0 +1,13 @@
+proveedor_id,nombre,rubro,evaluacion_2025,contrato_marco
+PR-001,Fundiciones Altamira,Piezas fundidas,A,CT-2026-001
+PR-002,Aceros Especiales Borda,Acero inoxidable y barras,A,CT-2026-002
+PR-003,Motores Eléctricos Vantek,Motores eléctricos,B,CT-2026-003
+PR-004,Sellos y Empaques Norte,Sellos mecánicos y empaques,A,CT-2026-005
+PR-005,Rodamientos Precisa,Rodamientos,B,CT-2026-006
+PR-006,Servicios Técnicos Arvelo S.A.,Mantenimiento industrial,B,CT-2026-004
+PR-007,Lubricantes Orbe,Lubricantes y fluidos,A,CT-2025-011
+PR-008,Herramientas de Corte Kesler,Herramientas CNC,B,CT-2024-008
+PR-009,Logística Transandina,Transporte y fletes,A,CT-2025-027
+PR-010,Soluciones TI Cumbre,Software y soporte TI,C,CT-2024-019
+PR-011,Seguridad Industrial Protek,Equipo de protección personal,A,CT-2026-012
+PR-012,Pinturas Industriales Cromo,Recubrimientos,B,CT-2026-014

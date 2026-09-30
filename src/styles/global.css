@@ -394,9 +394,11 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 .file-icon--pdf { background: var(--danger-soft); color: var(--danger); }
 .file-icon--docx { background: var(--info-soft); color: var(--info); }
-.file-icon--xlsx { background: var(--success-soft); color: var(--success); }
+.file-icon--xlsx,
+.file-icon--csv { background: var(--success-soft); color: var(--success); }
 .file-icon--image { background: var(--warning-soft); color: var(--warning); }
-.file-icon--txt { background: var(--surface-2); color: var(--muted); }
+.file-icon--txt,
+.file-icon--md { background: var(--surface-2); color: var(--muted); }
 
 /* ---------- Inputs ---------- */
 .search-input {

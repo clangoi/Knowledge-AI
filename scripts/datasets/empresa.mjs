@@ -143,11 +143,11 @@ export const reglas = {
     { anios: 3, dias: 16 },
     { anios: 4, dias: 18 },
     { anios: 5, dias: 20 },
-    { anios: 10, dias: 22 },
-    { anios: 15, dias: 24 },
-    { anios: 20, dias: 26 },
-    { anios: 25, dias: 28 },
-    { anios: 30, dias: 30 },
+    { anios: 6, dias: 22 }, // 6 a 10 años
+    { anios: 11, dias: 24 }, // 11 a 15 años
+    { anios: 16, dias: 26 }, // 16 a 20 años
+    { anios: 21, dias: 28 }, // 21 a 25 años
+    { anios: 26, dias: 30 }, // 26 años o más
   ],
   slaArvelo: { mensualidad: 18500, penalizacionPct: 2, topePct: 20 },
 };

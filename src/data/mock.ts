@@ -1,8 +1,11 @@
 // Datos de ejemplo para maquetar las vistas. Se reemplazarán por la API real.
+import manifest from '../../datasets/corpus/manifest.json';
+import resumenFineTuning from '../../datasets/fine-tuning/resumen.json';
 import type {
   ActivityItem,
   Agent,
   Dataset,
+  FileType,
   FineTuneJob,
   Folder,
   KnowledgeFile,
@@ -10,23 +13,34 @@ import type {
   RetrievedChunk,
 } from '../types';
 
-export const folders: Folder[] = [
-  { id: 'f1', name: 'Legal', count: 214 },
-  { id: 'f2', name: 'Finanzas', count: 387 },
-  { id: 'f3', name: 'Recursos Humanos', count: 156 },
-  { id: 'f4', name: 'Operaciones', count: 298 },
-  { id: 'f5', name: 'Comercial', count: 229 },
-];
+// Archivos y carpetas salen del corpus de datasets/ (se genera con `npm run datasets`).
+const areas = [...new Set(manifest.archivos.map((a) => a.area_nombre))];
 
-export const files: KnowledgeFile[] = [
-  { id: 'd1', name: 'Contrato marco proveedores 2026.pdf', type: 'pdf', size: '2.4 MB', folder: 'Legal', owner: 'Luis Méndez', updatedAt: 'Hace 2 h', status: 'indexado' },
-  { id: 'd2', name: 'Presupuesto anual Q3.xlsx', type: 'xlsx', size: '860 KB', folder: 'Finanzas', owner: 'Carla Ruiz', updatedAt: 'Hace 5 h', status: 'procesando' },
-  { id: 'd3', name: 'Manual de onboarding.docx', type: 'docx', size: '1.1 MB', folder: 'Recursos Humanos', owner: 'Ana Torres', updatedAt: 'Ayer', status: 'indexado' },
-  { id: 'd4', name: 'Procedimiento de mantenimiento L2.pdf', type: 'pdf', size: '5.7 MB', folder: 'Operaciones', owner: 'Jorge Paz', updatedAt: 'Ayer', status: 'pendiente' },
-  { id: 'd5', name: 'Diagrama planta norte.png', type: 'image', size: '3.2 MB', folder: 'Operaciones', owner: 'Jorge Paz', updatedAt: 'Hace 3 días', status: 'error' },
-  { id: 'd6', name: 'Política de viáticos.pdf', type: 'pdf', size: '420 KB', folder: 'Recursos Humanos', owner: 'Ana Torres', updatedAt: 'Hace 1 semana', status: 'indexado' },
-  { id: 'd7', name: 'Notas reunión comercial.txt', type: 'txt', size: '12 KB', folder: 'Comercial', owner: 'Sofía León', updatedAt: 'Hace 1 semana', status: 'indexado' },
-];
+export const folders: Folder[] = areas.map((name, i) => ({
+  id: `f${i + 1}`,
+  name,
+  count: manifest.archivos.filter((a) => a.area_nombre === name).length,
+}));
+
+const tamano = (bytes: number) =>
+  bytes >= 1024 * 1024 ? `${(bytes / 1024 / 1024).toFixed(1)} MB` : `${Math.max(1, Math.round(bytes / 1024))} KB`;
+
+const fecha = (iso: string) =>
+  new Date(`${iso}T12:00:00Z`).toLocaleDateString('es', { day: 'numeric', month: 'short', year: 'numeric' });
+
+// El corpus aún no está indexado (no hay backend), por eso todos quedan "pendiente".
+export const files: KnowledgeFile[] = [...manifest.archivos]
+  .sort((a, b) => b.fecha.localeCompare(a.fecha))
+  .map((a) => ({
+    id: a.id,
+    name: a.archivo,
+    type: a.formato as FileType,
+    size: tamano(a.bytes),
+    folder: a.area_nombre,
+    owner: a.responsable,
+    updatedAt: fecha(a.fecha),
+    status: 'pendiente',
+  }));
 
 export const collections: RagCollection[] = [
   { id: 'c1', name: 'Políticas internas', documents: 142, chunks: 5_830, embeddingModel: 'text-embedding-large', status: 'indexado' },
@@ -41,17 +55,26 @@ export const retrievedChunks: RetrievedChunk[] = [
   { id: 'r3', source: 'Manual de onboarding.docx', page: 12, score: 0.72, text: 'Para solicitudes de reembolso utiliza el formulario F-203 disponible en el portal interno…' },
 ];
 
-export const datasets: Dataset[] = [
-  { id: 'ds1', name: 'Soporte interno - tickets', examples: 12_400, format: 'JSONL (chat)', updatedAt: 'Hace 2 días' },
-  { id: 'ds2', name: 'Clasificación de contratos', examples: 3_150, format: 'JSONL (instrucción)', updatedAt: 'Hace 1 semana' },
-  { id: 'ds3', name: 'Resúmenes financieros', examples: 1_870, format: 'JSONL (chat)', updatedAt: 'Hace 2 semanas' },
-];
+const NOMBRES_DATASET: Record<string, string> = {
+  'soporte-interno': 'Soporte interno',
+  'clasificacion-clausulas': 'Clasificación de cláusulas',
+  'resumenes-financieros': 'Resúmenes financieros',
+};
+
+// Datasets de datasets/fine-tuning (resumen generado por `npm run datasets`).
+export const datasets: Dataset[] = Object.entries(resumenFineTuning).map(([id, d]) => ({
+  id,
+  name: NOMBRES_DATASET[id] ?? id,
+  examples: d.train + d.validation,
+  format: d.formato === 'chat' ? 'JSONL (chat)' : 'JSONL (instrucción)',
+  updatedAt: fecha(manifest.fecha_corte),
+}));
 
 export const jobs: FineTuneJob[] = [
-  { id: 'ft-0192', name: 'nexora-soporte-v3', baseModel: 'llm-base-8b', dataset: 'Soporte interno - tickets', status: 'entrenando', progress: 64, startedAt: 'Hoy 09:12' },
-  { id: 'ft-0188', name: 'nexora-legal-v1', baseModel: 'llm-base-8b', dataset: 'Clasificación de contratos', status: 'completado', progress: 100, startedAt: 'Hace 3 días' },
+  { id: 'ft-0192', name: 'nexora-soporte-v3', baseModel: 'llm-base-8b', dataset: 'Soporte interno', status: 'entrenando', progress: 64, startedAt: 'Hoy 09:12' },
+  { id: 'ft-0188', name: 'nexora-legal-v1', baseModel: 'llm-base-8b', dataset: 'Clasificación de cláusulas', status: 'completado', progress: 100, startedAt: 'Hace 3 días' },
   { id: 'ft-0185', name: 'nexora-finanzas-v2', baseModel: 'llm-base-3b', dataset: 'Resúmenes financieros', status: 'fallido', progress: 38, startedAt: 'Hace 5 días' },
-  { id: 'ft-0193', name: 'nexora-soporte-v4', baseModel: 'llm-base-8b', dataset: 'Soporte interno - tickets', status: 'en cola', progress: 0, startedAt: '—' },
+  { id: 'ft-0193', name: 'nexora-soporte-v4', baseModel: 'llm-base-8b', dataset: 'Soporte interno', status: 'en cola', progress: 0, startedAt: '—' },
 ];
 
 export const agents: Agent[] = [

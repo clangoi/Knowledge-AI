@@ -1,0 +1,109 @@
+id_gasto,id_viaje,empleado_id,empleado,centro_costo,destino,tipo_viaje,fecha_inicio,fecha_regreso,fecha_reporte,concepto,cantidad,monto_total_usd,comprobante,notas
+G-0063,V-26018,E-0062,Andrés Álvarez Zamora,CC-510,Valle Central,Nacional,2026-01-26,2026-01-29,2026-02-04,Hospedaje,3,345.99,Sí,
+G-0064,V-26018,E-0062,Andrés Álvarez Zamora,CC-510,Valle Central,Nacional,2026-01-26,2026-01-29,2026-02-04,Alimentación,4,143.84,Sí,
+G-0065,V-26018,E-0062,Andrés Álvarez Zamora,CC-510,Valle Central,Nacional,2026-01-26,2026-01-29,2026-02-04,Vuelo,1,381.92,Sí,Clase económica
+G-0036,V-26010,E-0054,Julia Cortés Salazar,CC-500,Ciudad Portuaria,Nacional,2026-02-02,2026-02-03,2026-02-16,Hospedaje,1,102.07,Sí,
+G-0037,V-26010,E-0054,Julia Cortés Salazar,CC-500,Ciudad Portuaria,Nacional,2026-02-02,2026-02-03,2026-02-16,Alimentación,2,80.38,Sí,
+G-0038,V-26010,E-0054,Julia Cortés Salazar,CC-500,Ciudad Portuaria,Nacional,2026-02-02,2026-02-03,2026-02-16,Vuelo,1,306.23,Sí,Clase económica
+G-0039,V-26010,E-0054,Julia Cortés Salazar,CC-500,Ciudad Portuaria,Nacional,2026-02-02,2026-02-03,2026-02-16,Transporte local,1,17.57,Sí,Taxi / app
+G-0074,V-26021,E-0068,Elisa Medina Marín,CC-510,Ciudad Portuaria,Nacional,2026-02-02,2026-02-04,2026-02-13,Hospedaje,2,169.36,Sí,
+G-0075,V-26021,E-0068,Elisa Medina Marín,CC-510,Ciudad Portuaria,Nacional,2026-02-02,2026-02-04,2026-02-13,Alimentación,3,96.96,Sí,
+G-0076,V-26021,E-0068,Elisa Medina Marín,CC-510,Ciudad Portuaria,Nacional,2026-02-02,2026-02-04,2026-02-13,Kilometraje,252,88.2,Sí,Auto propio
+G-0084,V-26024,E-0049,Leonardo Guerrero Ibarra,CC-500,Capital,Nacional,2026-02-04,2026-02-06,2026-02-18,Hospedaje,2,237.48,Sí,
+G-0085,V-26024,E-0049,Leonardo Guerrero Ibarra,CC-500,Capital,Nacional,2026-02-04,2026-02-06,2026-02-18,Alimentación,3,126.36,Sí,
+G-0086,V-26024,E-0049,Leonardo Guerrero Ibarra,CC-500,Capital,Nacional,2026-02-04,2026-02-06,2026-02-18,Vuelo,1,239.1,Sí,Clase económica
+G-0013,V-26004,E-0063,Andrés Castillo Delgado,CC-510,Ciudad Portuaria,Nacional,2026-02-07,2026-02-08,2026-02-11,Hospedaje,1,84.54,Sí,
+G-0014,V-26004,E-0063,Andrés Castillo Delgado,CC-510,Ciudad Portuaria,Nacional,2026-02-07,2026-02-08,2026-02-11,Alimentación,2,109.08,Sí,
+G-0015,V-26004,E-0063,Andrés Castillo Delgado,CC-510,Ciudad Portuaria,Nacional,2026-02-07,2026-02-08,2026-02-11,Kilometraje,181,63.35,Sí,Auto propio
+G-0016,V-26004,E-0063,Andrés Castillo Delgado,CC-510,Ciudad Portuaria,Nacional,2026-02-07,2026-02-08,2026-02-11,Transporte local,1,66.75,Sí,Taxi / app
+G-0009,V-26003,E-0053,Julián Escobar Valdez,CC-500,Visita a proveedor (extranjero),Internacional,2026-02-10,2026-02-15,2026-02-17,Hospedaje,5,707.3,Sí,
+G-0010,V-26003,E-0053,Julián Escobar Valdez,CC-500,Visita a proveedor (extranjero),Internacional,2026-02-10,2026-02-15,2026-02-17,Alimentación,6,536.16,Sí,
+G-0011,V-26003,E-0053,Julián Escobar Valdez,CC-500,Visita a proveedor (extranjero),Internacional,2026-02-10,2026-02-15,2026-02-17,Vuelo,1,1397.63,Sí,Clase económica
+G-0012,V-26003,E-0053,Julián Escobar Valdez,CC-500,Visita a proveedor (extranjero),Internacional,2026-02-10,2026-02-15,2026-02-17,Transporte local,1,31.76,Sí,Taxi / app
+G-0024,V-26007,E-0056,Fernanda Salazar Medina,CC-500,Visita a proveedor (extranjero),Internacional,2026-03-16,2026-03-21,2026-03-30,Hospedaje,5,963.05,Sí,
+G-0025,V-26007,E-0056,Fernanda Salazar Medina,CC-500,Visita a proveedor (extranjero),Internacional,2026-03-16,2026-03-21,2026-03-30,Alimentación,6,524.94,Sí,
+G-0026,V-26007,E-0056,Fernanda Salazar Medina,CC-500,Visita a proveedor (extranjero),Internacional,2026-03-16,2026-03-21,2026-03-30,Vuelo,1,733.29,Sí,Clase económica
+G-0027,V-26007,E-0056,Fernanda Salazar Medina,CC-500,Visita a proveedor (extranjero),Internacional,2026-03-16,2026-03-21,2026-03-30,Transporte local,1,50.91,Sí,Taxi / app
+G-0047,V-26013,E-0008,Sofía León,CC-500,Capital,Nacional,2026-03-17,2026-03-18,2026-03-31,Hospedaje,1,109.83,Sí,
+G-0048,V-26013,E-0008,Sofía León,CC-500,Capital,Nacional,2026-03-17,2026-03-18,2026-03-31,Alimentación,2,68.9,Sí,
+G-0049,V-26013,E-0008,Sofía León,CC-500,Capital,Nacional,2026-03-17,2026-03-18,2026-03-31,Kilometraje,149,52.15,Sí,Auto propio
+G-0070,V-26020,E-0051,Cecilia Navarro Soto,CC-500,Capital,Nacional,2026-03-19,2026-03-22,2026-04-02,Hospedaje,3,277.74,Sí,
+G-0071,V-26020,E-0051,Cecilia Navarro Soto,CC-500,Capital,Nacional,2026-03-19,2026-03-22,2026-04-02,Alimentación,4,120.64,Sí,
+G-0072,V-26020,E-0051,Cecilia Navarro Soto,CC-500,Capital,Nacional,2026-03-19,2026-03-22,2026-04-02,Kilometraje,191,66.85,Sí,Auto propio
+G-0073,V-26020,E-0051,Cecilia Navarro Soto,CC-500,Capital,Nacional,2026-03-19,2026-03-22,2026-04-02,Transporte local,1,47.83,Sí,Taxi / app
+G-0001,V-26001,E-0057,Gustavo Quintero Cabrera,CC-500,Distrito Agrícola Sur,Nacional,2026-03-30,2026-04-01,2026-04-03,Hospedaje,2,174.7,Sí,
+G-0002,V-26001,E-0057,Gustavo Quintero Cabrera,CC-500,Distrito Agrícola Sur,Nacional,2026-03-30,2026-04-01,2026-04-03,Alimentación,3,112.65,Sí,
+G-0003,V-26001,E-0057,Gustavo Quintero Cabrera,CC-500,Distrito Agrícola Sur,Nacional,2026-03-30,2026-04-01,2026-04-03,Vuelo,1,263.9,Sí,Clase económica
+G-0004,V-26001,E-0057,Gustavo Quintero Cabrera,CC-500,Distrito Agrícola Sur,Nacional,2026-03-30,2026-04-01,2026-04-03,Transporte local,1,44.63,Sí,Taxi / app
+G-0021,V-26006,E-0009,Elena Vargas,CC-100,Región Minera Norte,Nacional,2026-04-03,2026-04-04,2026-04-07,Hospedaje,1,106.8,Sí,
+G-0022,V-26006,E-0009,Elena Vargas,CC-100,Región Minera Norte,Nacional,2026-04-03,2026-04-04,2026-04-07,Alimentación,2,70.98,Sí,
+G-0023,V-26006,E-0009,Elena Vargas,CC-100,Región Minera Norte,Nacional,2026-04-03,2026-04-04,2026-04-07,Vuelo,1,371.58,Sí,Clase económica
+G-0080,V-26023,E-0064,Julia Bravo Cano,CC-510,Capital,Nacional,2026-04-15,2026-04-17,2026-04-28,Hospedaje,2,233.34,Sí,
+G-0081,V-26023,E-0064,Julia Bravo Cano,CC-510,Capital,Nacional,2026-04-15,2026-04-17,2026-04-28,Alimentación,3,179.91,Sí,
+G-0082,V-26023,E-0064,Julia Bravo Cano,CC-510,Capital,Nacional,2026-04-15,2026-04-17,2026-04-28,Kilometraje,443,155.05,Sí,Auto propio
+G-0083,V-26023,E-0064,Julia Bravo Cano,CC-510,Capital,Nacional,2026-04-15,2026-04-17,2026-04-28,Transporte local,1,52.58,Sí,Taxi / app
+G-0077,V-26022,E-0065,Hugo Pacheco Aguilar,CC-510,Ciudad Portuaria,Nacional,2026-04-16,2026-04-17,2026-04-30,Hospedaje,1,111.97,Sí,
+G-0078,V-26022,E-0065,Hugo Pacheco Aguilar,CC-510,Ciudad Portuaria,Nacional,2026-04-16,2026-04-17,2026-04-30,Alimentación,2,109.36,Sí,
+G-0079,V-26022,E-0065,Hugo Pacheco Aguilar,CC-510,Ciudad Portuaria,Nacional,2026-04-16,2026-04-17,2026-04-30,Kilometraje,136,47.6,Sí,Auto propio
+G-0060,V-26017,E-0002,Carla Ruiz,CC-200,Valle Central,Nacional,2026-04-21,2026-04-24,2026-04-28,Hospedaje,3,277.65,Sí,
+G-0061,V-26017,E-0002,Carla Ruiz,CC-200,Valle Central,Nacional,2026-04-21,2026-04-24,2026-04-28,Alimentación,4,160.32,Sí,
+G-0062,V-26017,E-0002,Carla Ruiz,CC-200,Valle Central,Nacional,2026-04-21,2026-04-24,2026-04-28,Vuelo,1,307.25,Sí,Clase económica
+G-0087,V-26025,E-0068,Elisa Medina Marín,CC-510,Capital,Nacional,2026-05-20,2026-05-21,2026-05-27,Hospedaje,1,80.47,Sí,
+G-0088,V-26025,E-0068,Elisa Medina Marín,CC-510,Capital,Nacional,2026-05-20,2026-05-21,2026-05-27,Alimentación,2,117.7,Sí,
+G-0089,V-26025,E-0068,Elisa Medina Marín,CC-510,Capital,Nacional,2026-05-20,2026-05-21,2026-05-27,Kilometraje,324,113.4,Sí,Auto propio
+G-0057,V-26016,E-0057,Gustavo Quintero Cabrera,CC-500,Feria industrial (extranjero),Internacional,2026-05-25,2026-05-28,2026-06-08,Hospedaje,3,582.87,Sí,
+G-0058,V-26016,E-0057,Gustavo Quintero Cabrera,CC-500,Feria industrial (extranjero),Internacional,2026-05-25,2026-05-28,2026-06-08,Alimentación,4,184.88,Sí,
+G-0059,V-26016,E-0057,Gustavo Quintero Cabrera,CC-500,Feria industrial (extranjero),Internacional,2026-05-25,2026-05-28,2026-06-08,Vuelo,1,689.96,Sí,Clase económica
+G-0028,V-26008,E-0063,Andrés Castillo Delgado,CC-510,Ciudad Portuaria,Nacional,2026-05-29,2026-05-30,2026-06-11,Hospedaje,1,106.4,Sí,
+G-0029,V-26008,E-0063,Andrés Castillo Delgado,CC-510,Ciudad Portuaria,Nacional,2026-05-29,2026-05-30,2026-06-11,Alimentación,2,86.4,Sí,
+G-0030,V-26008,E-0063,Andrés Castillo Delgado,CC-510,Ciudad Portuaria,Nacional,2026-05-29,2026-05-30,2026-06-11,Kilometraje,120,42,Sí,Auto propio
+G-0031,V-26008,E-0063,Andrés Castillo Delgado,CC-510,Ciudad Portuaria,Nacional,2026-05-29,2026-05-30,2026-06-11,Transporte local,1,42.93,Sí,Taxi / app
+G-0005,V-26002,E-0065,Hugo Pacheco Aguilar,CC-510,Visita a proveedor (extranjero),Internacional,2026-06-10,2026-06-13,2026-06-25,Hospedaje,3,512.73,Sí,
+G-0006,V-26002,E-0065,Hugo Pacheco Aguilar,CC-510,Visita a proveedor (extranjero),Internacional,2026-06-10,2026-06-13,2026-06-25,Alimentación,4,230.36,Sí,
+G-0007,V-26002,E-0065,Hugo Pacheco Aguilar,CC-510,Visita a proveedor (extranjero),Internacional,2026-06-10,2026-06-13,2026-06-25,Vuelo,1,846.95,Sí,Clase económica
+G-0008,V-26002,E-0065,Hugo Pacheco Aguilar,CC-510,Visita a proveedor (extranjero),Internacional,2026-06-10,2026-06-13,2026-06-25,Transporte local,1,39.03,Sí,Taxi / app
+G-0066,V-26019,E-0056,Fernanda Salazar Medina,CC-500,Valle Central,Nacional,2026-06-18,2026-06-21,2026-06-29,Hospedaje,3,350.07,Sí,
+G-0067,V-26019,E-0056,Fernanda Salazar Medina,CC-500,Valle Central,Nacional,2026-06-18,2026-06-21,2026-06-29,Alimentación,4,213.88,Sí,
+G-0068,V-26019,E-0056,Fernanda Salazar Medina,CC-500,Valle Central,Nacional,2026-06-18,2026-06-21,2026-06-29,Kilometraje,207,72.45,Sí,Auto propio
+G-0069,V-26019,E-0056,Fernanda Salazar Medina,CC-500,Valle Central,Nacional,2026-06-18,2026-06-21,2026-06-29,Transporte local,1,39.05,Sí,Taxi / app
+G-0050,V-26014,E-0008,Sofía León,CC-500,Valle Central,Nacional,2026-06-19,2026-06-22,2026-06-25,Hospedaje,3,249.48,Sí,
+G-0051,V-26014,E-0008,Sofía León,CC-500,Valle Central,Nacional,2026-06-19,2026-06-22,2026-06-25,Alimentación,4,231.8,Sí,
+G-0052,V-26014,E-0008,Sofía León,CC-500,Valle Central,Nacional,2026-06-19,2026-06-22,2026-06-25,Vuelo,1,353.35,Sí,Clase económica
+G-0053,V-26014,E-0008,Sofía León,CC-500,Valle Central,Nacional,2026-06-19,2026-06-22,2026-06-25,Transporte local,1,34.48,Sí,Taxi / app
+G-0090,V-26026,E-0051,Cecilia Navarro Soto,CC-500,Distrito Agrícola Sur,Nacional,2026-07-06,2026-07-08,2026-07-15,Hospedaje,2,156.52,Sí,
+G-0091,V-26026,E-0051,Cecilia Navarro Soto,CC-500,Distrito Agrícola Sur,Nacional,2026-07-06,2026-07-08,2026-07-15,Alimentación,3,93.12,Sí,
+G-0092,V-26026,E-0051,Cecilia Navarro Soto,CC-500,Distrito Agrícola Sur,Nacional,2026-07-06,2026-07-08,2026-07-15,Kilometraje,273,95.55,Sí,Auto propio
+G-0093,V-26027,E-0054,Julia Cortés Salazar,CC-500,Distrito Agrícola Sur,Nacional,2026-07-06,2026-07-08,2026-07-14,Hospedaje,2,330,Sí,
+G-0094,V-26027,E-0054,Julia Cortés Salazar,CC-500,Distrito Agrícola Sur,Nacional,2026-07-06,2026-07-08,2026-07-14,Alimentación,3,144,Sí,
+G-0043,V-26012,E-0064,Julia Bravo Cano,CC-510,Feria industrial (extranjero),Internacional,2026-07-17,2026-07-22,2026-07-27,Hospedaje,5,918.2,Sí,
+G-0044,V-26012,E-0064,Julia Bravo Cano,CC-510,Feria industrial (extranjero),Internacional,2026-07-17,2026-07-22,2026-07-27,Alimentación,6,296.64,Sí,
+G-0045,V-26012,E-0064,Julia Bravo Cano,CC-510,Feria industrial (extranjero),Internacional,2026-07-17,2026-07-22,2026-07-27,Vuelo,1,817.94,Sí,Clase económica
+G-0046,V-26012,E-0064,Julia Bravo Cano,CC-510,Feria industrial (extranjero),Internacional,2026-07-17,2026-07-22,2026-07-27,Transporte local,1,60.16,Sí,Taxi / app
+G-0095,V-26028,E-0057,Gustavo Quintero Cabrera,CC-500,Capacitación de fabricante (extranjero),Internacional,2026-07-20,2026-07-24,2026-07-30,Hospedaje,4,728,Sí,
+G-0096,V-26028,E-0057,Gustavo Quintero Cabrera,CC-500,Capacitación de fabricante (extranjero),Internacional,2026-07-20,2026-07-24,2026-07-30,Alimentación,5,560,Sí,
+G-0097,V-26028,E-0057,Gustavo Quintero Cabrera,CC-500,Capacitación de fabricante (extranjero),Internacional,2026-07-20,2026-07-24,2026-07-30,Vuelo,1,980,Sí,Clase económica
+G-0017,V-26005,E-0032,Ximena Cortés Escobar,CC-210,Visita a proveedor (extranjero),Internacional,2026-07-30,2026-08-01,2026-08-12,Hospedaje,2,281.52,Sí,
+G-0018,V-26005,E-0032,Ximena Cortés Escobar,CC-210,Visita a proveedor (extranjero),Internacional,2026-07-30,2026-08-01,2026-08-12,Alimentación,3,230.19,Sí,
+G-0019,V-26005,E-0032,Ximena Cortés Escobar,CC-210,Visita a proveedor (extranjero),Internacional,2026-07-30,2026-08-01,2026-08-12,Vuelo,1,1208.01,Sí,Clase económica
+G-0020,V-26005,E-0032,Ximena Cortés Escobar,CC-210,Visita a proveedor (extranjero),Internacional,2026-07-30,2026-08-01,2026-08-12,Transporte local,1,64.19,Sí,Taxi / app
+G-0098,V-26029,E-0064,Julia Bravo Cano,CC-510,Ciudad Portuaria,Nacional,2026-08-03,2026-08-04,2026-08-26,Hospedaje,1,102,Sí,
+G-0099,V-26029,E-0064,Julia Bravo Cano,CC-510,Ciudad Portuaria,Nacional,2026-08-03,2026-08-04,2026-08-26,Alimentación,2,96,Sí,
+G-0100,V-26030,E-0051,Cecilia Navarro Soto,CC-500,Valle Central,Nacional,2026-08-17,2026-08-19,2026-08-25,Hospedaje,2,204,Sí,
+G-0101,V-26030,E-0051,Cecilia Navarro Soto,CC-500,Valle Central,Nacional,2026-08-17,2026-08-19,2026-08-25,Alimentación,3,144,Sí,
+G-0102,V-26030,E-0051,Cecilia Navarro Soto,CC-500,Valle Central,Nacional,2026-08-17,2026-08-19,2026-08-25,Otros,1,86.4,Sí,Bebidas alcohólicas en cena con cliente
+G-0032,V-26009,E-0050,Óscar Cortés Flores,CC-500,Valle Central,Nacional,2026-08-21,2026-08-23,2026-09-01,Hospedaje,2,186.16,Sí,
+G-0033,V-26009,E-0050,Óscar Cortés Flores,CC-500,Valle Central,Nacional,2026-08-21,2026-08-23,2026-09-01,Alimentación,3,107.37,Sí,
+G-0034,V-26009,E-0050,Óscar Cortés Flores,CC-500,Valle Central,Nacional,2026-08-21,2026-08-23,2026-09-01,Kilometraje,303,106.05,Sí,Auto propio
+G-0035,V-26009,E-0050,Óscar Cortés Flores,CC-500,Valle Central,Nacional,2026-08-21,2026-08-23,2026-09-01,Transporte local,1,36.56,Sí,Taxi / app
+G-0040,V-26011,E-0063,Andrés Castillo Delgado,CC-510,Distrito Agrícola Sur,Nacional,2026-08-26,2026-08-29,2026-09-09,Hospedaje,3,356.61,Sí,
+G-0041,V-26011,E-0063,Andrés Castillo Delgado,CC-510,Distrito Agrícola Sur,Nacional,2026-08-26,2026-08-29,2026-09-09,Alimentación,4,199.52,Sí,
+G-0042,V-26011,E-0063,Andrés Castillo Delgado,CC-510,Distrito Agrícola Sur,Nacional,2026-08-26,2026-08-29,2026-09-09,Vuelo,1,274.85,Sí,Clase económica
+G-0103,V-26031,E-0031,Daniel Molina Mejía,CC-210,Región Minera Norte,Nacional,2026-09-01,2026-09-02,2026-09-08,Hospedaje,1,102,Sí,
+G-0104,V-26031,E-0031,Daniel Molina Mejía,CC-210,Región Minera Norte,Nacional,2026-09-01,2026-09-02,2026-09-08,Alimentación,2,96,Sí,
+G-0105,V-26031,E-0031,Daniel Molina Mejía,CC-210,Región Minera Norte,Nacional,2026-09-01,2026-09-02,2026-09-08,Transporte local,1,48,No,Taxi sin recibo
+G-0054,V-26015,E-0058,Hugo Castillo Aguilar,CC-500,Visita a proveedor (extranjero),Internacional,2026-09-06,2026-09-07,2026-09-10,Hospedaje,1,178.37,Sí,
+G-0055,V-26015,E-0058,Hugo Castillo Aguilar,CC-500,Visita a proveedor (extranjero),Internacional,2026-09-06,2026-09-07,2026-09-10,Alimentación,2,100.54,Sí,
+G-0056,V-26015,E-0058,Hugo Castillo Aguilar,CC-500,Visita a proveedor (extranjero),Internacional,2026-09-06,2026-09-07,2026-09-10,Vuelo,1,914.33,Sí,Clase económica
+G-0106,V-26032,E-0049,Leonardo Guerrero Ibarra,CC-500,Distrito Agrícola Sur,Nacional,2026-09-08,2026-09-09,2026-09-15,Hospedaje,1,102,Sí,
+G-0107,V-26032,E-0049,Leonardo Guerrero Ibarra,CC-500,Distrito Agrícola Sur,Nacional,2026-09-08,2026-09-09,2026-09-15,Alimentación,2,96,Sí,
+G-0108,V-26032,E-0049,Leonardo Guerrero Ibarra,CC-500,Distrito Agrícola Sur,Nacional,2026-09-08,2026-09-09,2026-09-15,Kilometraje,320,150,Sí,Auto propio
